@@ -10,7 +10,7 @@ const Navbar = ({ onLogin, onRegister, onHome }) => {
   };
 
   return (
-    <nav className="bg-blue-600 text-white shadow-lg">
+    <nav className="w-full bg-gradient-to-r from-cyan-500 to-blue-700 text-white shadow-md">
       <div className="max-w-6xl mx-auto px-4">
         <div className="flex justify-between items-center h-16">
           <div className="flex items-center">
@@ -18,7 +18,7 @@ const Navbar = ({ onLogin, onRegister, onHome }) => {
               onClick={onHome}
               className="text-xl font-bold hover:text-blue-200 transition"
             >
-              Quiz App
+              Logo
             </button>
           </div>
 

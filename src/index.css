@@ -1,1 +1,15 @@
 @import "tailwindcss";
+
+@theme {
+  --color-custom-blue: #0059ba;
+  --color-custom-text-blue: #1e3a8a;
+  --font-family-poppins: "Poppins", sans-serif;
+  --color-custom-cyan: #17e4e4;
+  --color-custom-blue-2: #24afe9;
+  --color-custom-purple: #467ffe;
+  --color-custom-blue-light: #053170;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}

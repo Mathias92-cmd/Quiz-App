@@ -4,6 +4,7 @@ import Home from "./components/Home";
 import Navbar from "./components/navbar/navbar";
 import Login from "./components/auth/Login";
 import Register from "./components/auth/Register";
+
 import { useAuthStore } from "./store/useAuthStore";
 
 export const App = () => {
@@ -46,7 +47,7 @@ export const App = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gray-100">
+    <div className="min-h-screen bg-gradient-to-br from-cyan-50 via-blue-50 to-purple-50">
       <Navbar
         onHome={() => handleNavigation("home")}
         onLogin={() => handleNavigation("login")}
