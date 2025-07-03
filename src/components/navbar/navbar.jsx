@@ -16,7 +16,7 @@ const Navbar = ({ onLogin, onRegister, onHome }) => {
           <div className="flex items-center">
             <button
               onClick={onHome}
-              className="text-xl font-bold hover:text-blue-200 transition"
+              className="text-xl font-bold hover:text-blue-200 transition cursor-pointer"
             >
               Logo
             </button>

@@ -1,7 +1,7 @@
-import React, { useRef, useState } from "react";
+import React, { useRef, useState, useEffect } from "react";
 import { data } from "../../assets/data";
 
-const Quiz = ({ onBackToHome }) => {
+const Quiz = ({ category, onBackToHome }) => {
   let [index, setIndex] = useState(0);
   let [question, setQuestion] = useState(data[index]);
   let [lock, setLock] = useState(false);
@@ -15,9 +15,19 @@ const Quiz = ({ onBackToHome }) => {
 
   let optionArray = [Option1, Option2, Option3, Option4];
 
+  useEffect(() => {
+    if (data[category] && data[category].length > 0) {
+      setQuestion(data[category][0]);
+      setIndex(0);
+      setScore(0);
+      setLock(false);
+      setResult(false);
+    }
+  }, [category]);
+
   const reset = () => {
     setIndex(0);
-    setQuestion(data[0]);
+    setQuestion(data[category][0]);
     setScore(0);
     setLock(false);
     setResult(false);
@@ -25,12 +35,12 @@ const Quiz = ({ onBackToHome }) => {
 
   const next = () => {
     if (lock) {
-      if (index === data.length - 1) {
+      if (index === data[category].length - 1) {
         setResult(true);
         return 0;
       }
       setIndex(++index);
-      setQuestion(data[index]);
+      setQuestion(data[category][index]);
       setLock(false);
       optionArray.map((option) => {
         option.current.classList.remove("bg-red-500");
@@ -56,9 +66,15 @@ const Quiz = ({ onBackToHome }) => {
     }
   };
 
+  if (!question) {
+    return <div>Chargement ... </div>;
+  }
+
   return (
     <div className="max-w-xl mx-auto mt-36 bg-white rounded-lg p-8 flex flex-col items-center">
-      <h1 className="text-3xl font-bold text-red-600 mb-4">Quiz</h1>
+      <h1 className="text-3xl font-bold text-red-600 mb-4">
+        Quiz - {category}
+      </h1>
       <div className="flex-col items-center mb-6">
         <button
           className="bg-blue-600 text-white px-8 py-3 rounded-lg hover:bg-blue-700 transition text-lg font-semibold"
@@ -76,6 +92,14 @@ const Quiz = ({ onBackToHome }) => {
           <h2 className="text-xl font-semibold mb-6 text-gray-800">
             {index + 1}. {question.question}
           </h2>
+          {/* Si la question a une image on l'affiche */}
+          {question.image && (
+            <img
+              src={question.image}
+              alt="Question"
+              className="w-full h-auto mb-4 rounded-lg shadow-md"
+            />
+          )}
           <ul className="w-full mb-6 space-y-3">
             <li
               className="bg-gray-100 hover:bg-blue-100 cursor-pointer px-4 py-2 rounded transition"
@@ -121,14 +145,14 @@ const Quiz = ({ onBackToHome }) => {
             Next
           </button>
           <div className="text-gray-500 text-sm">
-            Question {index + 1} of {data.length}
+            Question {index + 1} of {data[category].length}
           </div>
         </>
       )}
       {result ? (
         <>
           <h2>
-            You scored {score} of {data.length}{" "}
+            You scored {score} of {data[category].length}
           </h2>
           <button
             className="bg-black text-red-500 p-5 m-5 rounded-2px cursor-pointer"

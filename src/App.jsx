@@ -10,6 +10,7 @@ import { useAuthStore } from "./store/useAuthStore";
 export const App = () => {
   const { fetchUser, fetchingUser } = useAuthStore();
   const [currentPage, setCurrentPage] = useState("home");
+  const [selectedCategory, setSelectedCategory] = useState(null);
 
   useEffect(() => {
     fetchUser();
@@ -21,6 +22,11 @@ export const App = () => {
 
   const handleNavigation = (page) => {
     setCurrentPage(page);
+  };
+
+  const handleStartQuiz = (category) => {
+    setSelectedCategory(category);
+    setCurrentPage("quiz");
   };
 
   const renderCurrentPage = () => {
@@ -40,9 +46,14 @@ export const App = () => {
           />
         );
       case "quiz":
-        return <Quiz onBackToHome={() => handleNavigation("home")} />;
+        return (
+          <Quiz
+            category={selectedCategory}
+            onBackToHome={() => handleNavigation("home")}
+          />
+        );
       default:
-        return <Home onStartQuiz={() => handleNavigation("quiz")} />;
+        return <Home onStartQuiz={handleStartQuiz} />;
     }
   };
 
