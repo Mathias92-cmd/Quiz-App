@@ -1,5 +1,6 @@
 import React, { useRef, useState, useEffect } from "react";
 import { data } from "../../assets/data";
+import Footer from "../footer/footer.jsx";
 
 const Quiz = ({
   category,
@@ -53,8 +54,12 @@ const Quiz = ({
   }, [category, difficulty, numberOfQuestions]);
 
   const reset = () => {
+    const filtered = data[category].filter((q) => q.difficulty === difficulty);
+    const shuffledQuestions = shuffleArray(filtered);
+    const limitedQuestions = shuffledQuestions.slice(0, numberOfQuestions);
+    setFilteredQuestions(limitedQuestions);
     setIndex(0);
-    setQuestion(filteredQuestions[0]);
+    setQuestion(limitedQuestions[0]);
     setScore(0);
     setLock(false);
     setResult(false);
@@ -128,101 +133,104 @@ const Quiz = ({
   }
 
   return (
-    <div className="max-w-xl mx-auto mt-36 bg-white rounded-lg p-8 flex flex-col items-center">
-      <h1 className="text-3xl font-bold text-red-600 mb-4">
-        Quiz - {category}
-      </h1>
-      <p className="text-gray-600 mb-6">Difficulté : {difficulty}</p>
-      <div className="flex-col items-center mb-6">
-        <button
-          className="bg-blue-600 text-white px-8 py-3 rounded-lg hover:bg-blue-700 transition text-lg font-semibold"
-          onClick={onBackToHome}
-        >
-          Home
-        </button>
+    <>
+      <div className="max-w-xl mx-auto mt-15 bg-white rounded-lg p-8 flex flex-col items-center">
+        <h1 className="text-3xl font-bold text-red-600 mb-4">
+          Quiz - {category}
+        </h1>
+        <p className="text-gray-600 mb-6">Difficulté : {difficulty}</p>
+        <div className="flex-col items-center mb-6">
+          <button
+            className="bg-blue-600 text-white px-8 py-3 rounded-lg hover:bg-blue-700 transition text-lg font-semibold"
+            onClick={onBackToHome}
+          >
+            Home
+          </button>
+        </div>
+        <hr />
+        {result ? (
+          <></>
+        ) : (
+          <>
+            <hr className="w-full mb-6 border-gray-200" />
+            <h2 className="text-xl font-semibold mb-6 text-gray-800">
+              {index + 1}. {question.question}
+            </h2>
+            {/* Si la question a une image on l'affiche */}
+            {question.image && (
+              <img
+                src={question.image}
+                alt="Question"
+                className="w-96 h-96 mb-4 rounded-lg shadow-md"
+              />
+            )}
+            <ul className="w-full mb-6 space-y-3">
+              <li
+                className="bg-gray-100 hover:bg-blue-100 cursor-pointer px-4 py-2 rounded transition"
+                ref={Option1}
+                onClick={(e) => {
+                  checkAnser(e, 1);
+                }}
+              >
+                {question.option1}
+              </li>
+              <li
+                className="bg-gray-100 hover:bg-blue-100 cursor-pointer px-4 py-2 rounded transition"
+                ref={Option2}
+                onClick={(e) => {
+                  checkAnser(e, 2);
+                }}
+              >
+                {question.option2}
+              </li>
+              <li
+                className="bg-gray-100 hover:bg-blue-100 cursor-pointer px-4 py-2 rounded transition"
+                ref={Option3}
+                onClick={(e) => {
+                  checkAnser(e, 3);
+                }}
+              >
+                {question.option3}
+              </li>
+              <li
+                className="bg-gray-100 hover:bg-blue-100 cursor-pointer px-4 py-2 rounded transition"
+                ref={Option4}
+                onClick={(e) => {
+                  checkAnser(e, 4);
+                }}
+              >
+                {question.option4}
+              </li>
+            </ul>
+            <button
+              className="bg-blue-600 text-white px-6 py-2 rounded hover:bg-blue-700 transition mb-4 cursor-pointer"
+              onClick={next}
+            >
+              Suivant
+            </button>
+            <div className="text-gray-500 text-sm">
+              Question {index + 1} sur {filteredQuestions.length}
+            </div>
+          </>
+        )}
+        {result ? (
+          <>
+            <h2>
+              You scored {score} of {filteredQuestions.length}
+            </h2>
+            <button
+              className="bg-black text-red-500 p-5 m-5 rounded-2px cursor-pointer"
+              onClick={reset}
+            >
+              Reset
+            </button>
+          </>
+        ) : (
+          <></>
+        )}
       </div>
-      <hr />
-      {result ? (
-        <></>
-      ) : (
-        <>
-          <hr className="w-full mb-6 border-gray-200" />
-          <h2 className="text-xl font-semibold mb-6 text-gray-800">
-            {index + 1}. {question.question}
-          </h2>
-          {/* Si la question a une image on l'affiche */}
-          {question.image && (
-            <img
-              src={question.image}
-              alt="Question"
-              className="w-full h-auto mb-4 rounded-lg shadow-md"
-            />
-          )}
-          <ul className="w-full mb-6 space-y-3">
-            <li
-              className="bg-gray-100 hover:bg-blue-100 cursor-pointer px-4 py-2 rounded transition"
-              ref={Option1}
-              onClick={(e) => {
-                checkAnser(e, 1);
-              }}
-            >
-              {question.option1}
-            </li>
-            <li
-              className="bg-gray-100 hover:bg-blue-100 cursor-pointer px-4 py-2 rounded transition"
-              ref={Option2}
-              onClick={(e) => {
-                checkAnser(e, 2);
-              }}
-            >
-              {question.option2}
-            </li>
-            <li
-              className="bg-gray-100 hover:bg-blue-100 cursor-pointer px-4 py-2 rounded transition"
-              ref={Option3}
-              onClick={(e) => {
-                checkAnser(e, 3);
-              }}
-            >
-              {question.option3}
-            </li>
-            <li
-              className="bg-gray-100 hover:bg-blue-100 cursor-pointer px-4 py-2 rounded transition"
-              ref={Option4}
-              onClick={(e) => {
-                checkAnser(e, 4);
-              }}
-            >
-              {question.option4}
-            </li>
-          </ul>
-          <button
-            className="bg-blue-600 text-white px-6 py-2 rounded hover:bg-blue-700 transition mb-4 cursor-pointer"
-            onClick={next}
-          >
-            Suivant
-          </button>
-          <div className="text-gray-500 text-sm">
-            Question {index + 1} sur {filteredQuestions.length}
-          </div>
-        </>
-      )}
-      {result ? (
-        <>
-          <h2>
-            You scored {score} of {filteredQuestions.length}
-          </h2>
-          <button
-            className="bg-black text-red-500 p-5 m-5 rounded-2px cursor-pointer"
-            onClick={reset}
-          >
-            Reset
-          </button>
-        </>
-      ) : (
-        <></>
-      )}
-    </div>
+      <Footer />
+    </>
   );
 };
 

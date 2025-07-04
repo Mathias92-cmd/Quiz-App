@@ -98,6 +98,8 @@ export const App = () => {
                   ? "Sport"
                   : selectedCategory === "capital"
                   ? "Capitales"
+                  : selectedCategory === "manga"
+                  ? "Manga"
                   : selectedCategory}
               </span>
             </p>
@@ -184,7 +186,7 @@ export const App = () => {
         <section className="bg-gradient-to-br from-blue-500 via-purple-600 to-indigo-700 rounded-2xl shadow-2xl p-8 w-[90%] max-w-4xl relative z-10">
           <button
             onClick={handleCloseModal}
-            className="absolute top-4 right-4 text-white hover:text-gray-300 text-2xl font-bold transition-colors duration-200"
+            className="absolute top-4 right-4 text-white hover:text-gray-300 text-2xl font-bold transition-colors duration-200 cursor-pointer"
           >
             ×
           </button>

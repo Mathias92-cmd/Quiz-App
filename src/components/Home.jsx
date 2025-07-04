@@ -1,4 +1,5 @@
 import React from "react";
+import Footer from "./footer/footer";
 
 const Home = ({ onStartQuiz }) => {
   const handleCategorySelect = (category) => {
@@ -27,7 +28,7 @@ const Home = ({ onStartQuiz }) => {
         <h2 className="flex items-center justify-center text-4xl font-bold text-custom-blue-light mb-4">
           Quiz populaires
         </h2>
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-4 p-6 max-w-6xl mx-auto">
+        <div className="grid grid-cols-2 md:grid-cols-5 gap-4 p-6 max-w-6xl mx-auto">
           <button
             onClick={() => handleCategorySelect("sport")}
             className="bg-gradient-to-br from-pink-500 to-orange-400 rounded-2xl p-8 text-center cursor-pointer hover:scale-105 transition-transform duration-200 h-82 flex flex-col justify-center focus:outline-none focus:ring-4 focus:ring-pink-300"
@@ -59,17 +60,18 @@ const Home = ({ onStartQuiz }) => {
             <div className="text-white text-6xl mb-6">🏛️</div>
             <h3 className="text-white font-bold text-2xl">Histoire</h3>
           </button>
+
+          <button
+            onClick={() => handleCategorySelect("manga")}
+            className="bg-gradient-to-br from-purple-500 to-pink-500 rounded-2xl p-8 text-center cursor-pointer hover:scale-105 transition-transform duration-200 h-82 flex flex-col justify-center focus:outline-none focus:ring-4 focus:ring-purple-300"
+          >
+            <div className="text-white text-6xl mb-6">🐉</div>
+            <h3 className="text-white font-bold text-2xl">Manga</h3>
+          </button>
         </div>
       </section>
 
-      <footer className=" text-custom-text-blue font-bold py-8 flex items-center justify-center">
-        <div className="container mx-auto text-center px-4">
-          <p className="text-lg md:text-xl">
-            &copy; {new Date().getFullYear()} Morel Mathias - Quiz de culture
-            générale. Tous droits réservés.
-          </p>
-        </div>
-      </footer>
+      <Footer />
     </section>
   );
 };
