@@ -1955,4 +1955,5 @@ export const data = {
       difficulty: "easy",
     },
   ],
+  manga: [],
 };
