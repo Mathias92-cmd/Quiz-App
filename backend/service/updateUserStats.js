@@ -13,12 +13,15 @@ export const updateUserStats = async (
       throw new Error("Utilisateur non trouvé ! ");
     }
 
+    const xpGained = calculateXP(newScore, totalQuestions, difficulty);
+
     user.totalScore += newScore;
     user.totalQuizzes += 1;
     user.averageScore = user.totalScore / totalQuizzes;
-    user.experience = newScore * 10;
-    user.level = Math.floor(user.experience / 100) + 1;
+    user.experience += xpGained;
+    user.level = calculateLevel(user.experience);
     await user.save();
+    return { user, xpGained };
   } catch (error) {
     throw new Error(
       `Erreur lors de la mise à jour des statistiques de l'utilisateur : ${error.message}`
@@ -61,4 +64,37 @@ export const getXPForNextLevel = (currentLevel) => {
     xpRequired = Math.round(xpRequired * 1.2);
   }
   return xpRequired;
+};
+
+export const getUserProgression = async (userId) => {
+  try {
+    const user = await User.findById(userId);
+
+    if (!user) {
+      throw new Error("Utilisateur non trouvé ! ");
+    }
+
+    const currentLevel = user.level;
+    const xpForNextLevel = getXPForNextLevel(currentLevel);
+
+    let xpUsed = 0;
+    let xpRequired = 100; // XP requis pour le niveau 2
+    for (let i = 1; i < currentLevel; i++) {
+      xpUsed += xpRequired;
+      xpRequired = Math.round(xpRequired * 1.2);
+    }
+
+    const xpInCurrentLevel = user.experience - xpUsed;
+    const progressPercentage = (xpInCurrentLevel / xpForNextLevalt) * 100;
+    return {
+      currentLevel,
+      experience: user.experience,
+      xpForNextLevel: xpForNextLevalt,
+      progressPercentage: Math.round(progressPercentage),
+    };
+  } catch (error) {
+    throw new Error(
+      `Erreur lors de la récupération de la progression de l'utilisateur : ${error.message}`
+    );
+  }
 };
