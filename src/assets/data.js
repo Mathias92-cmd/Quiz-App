@@ -2163,7 +2163,7 @@ export const data = {
       option2: "Kuroko's Basketball",
       option3: "Yuri on Ice",
       option4: "Free!",
-      ans: 3,
+      ans: 1,
       difficulty: "easy",
     },
     {

@@ -1,6 +1,7 @@
 import React, { useRef, useState, useEffect } from "react";
 import { data } from "../../assets/data";
 import Footer from "../footer/footer.jsx";
+import { useAuthStore } from "../../store/useAuthStore.jsx";
 
 const Quiz = ({
   category,
@@ -15,6 +16,8 @@ const Quiz = ({
   let [score, setScore] = useState(0);
   let [result, setResult] = useState(false);
   let [filteredQuestions, setFilteredQuestions] = useState([]);
+
+  const { user } = useAuthStore();
 
   let Option1 = useRef(null);
   let Option2 = useRef(null);
@@ -69,6 +72,7 @@ const Quiz = ({
     if (lock) {
       if (index === filteredQuestions.length - 1) {
         setResult(true);
+        saveQuizResult();
         return 0;
       }
       setIndex(++index);
@@ -81,6 +85,41 @@ const Quiz = ({
       });
     } else {
       alert("You need to chose an answer");
+    }
+  };
+
+  const saveQuizResult = async () => {
+    if (!user) {
+      console.log("User not connected");
+      return;
+    }
+
+    try {
+      const response = await fetch(
+        "http://localhost:5000/api/quiz/submit-result",
+        {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          credentials: "include",
+          body: JSON.stringify({
+            userId: user._id,
+            score: score,
+            totalQuestions: filteredQuestions.length,
+            difficulty: difficulty,
+          }),
+        }
+      );
+      if (response.ok) {
+        const data = await response.json();
+        console.log("Quiz result saved successfully", data);
+      } else {
+        const errorData = await response.json();
+        console.error("Error saving quiz result", errorData);
+      }
+    } catch (error) {
+      console.error("Error saving quiz result", error);
     }
   };
 

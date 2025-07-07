@@ -1,10 +1,35 @@
 import React from "react";
 import Footer from "./footer/footer";
+import { useState, useEffect } from "react";
 
 const Home = ({ onStartQuiz }) => {
+  const [ranking, setRanking] = useState([]);
+  const [isLoading, setIsLoading] = useState(true);
+  const [error, setError] = useState(null);
+
   const handleCategorySelect = (category) => {
     onStartQuiz(category);
   };
+
+  const fetchRanking = async () => {
+    try {
+      setIsLoading(true);
+      const response = await fetch("http://localhost:5000/api/quiz/ranking");
+      if (!response.ok) {
+        throw new Error("Failed to fetch ranking");
+      }
+      const data = await response.json();
+      setRanking(data);
+    } catch (error) {
+      setError(error.message);
+    } finally {
+      setIsLoading(false);
+    }
+  };
+
+  useEffect(() => {
+    fetchRanking();
+  }, []);
 
   return (
     <section className="min-h-screen flex flex-col">
@@ -70,7 +95,6 @@ const Home = ({ onStartQuiz }) => {
           </button>
         </div>
       </section>
-
       <Footer />
     </section>
   );

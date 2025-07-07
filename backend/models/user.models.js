@@ -12,7 +12,7 @@ const userSchema = mongoose.Schema({
   bestScore: { type: Number, default: 0 },
   level: { type: Number, default: 1 },
   averageScore: { type: Number, default: 0 },
-  expérience: { type: Number, default: 0 },
+  experience: { type: Number, default: 0 },
 });
 
 const User = mongoose.models.user || mongoose.model("User", userSchema);

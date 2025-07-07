@@ -17,7 +17,7 @@ export const updateUserStats = async (
 
     user.totalScore += newScore;
     user.totalQuizzes += 1;
-    user.averageScore = user.totalScore / totalQuizzes;
+    user.averageScore = user.totalScore / user.totalQuizzes;
     user.experience += xpGained;
     user.level = calculateLevel(user.experience);
     await user.save();
@@ -85,11 +85,11 @@ export const getUserProgression = async (userId) => {
     }
 
     const xpInCurrentLevel = user.experience - xpUsed;
-    const progressPercentage = (xpInCurrentLevel / xpForNextLevalt) * 100;
+    const progressPercentage = (xpInCurrentLevel / xpForNextLevel) * 100;
     return {
       currentLevel,
       experience: user.experience,
-      xpForNextLevel: xpForNextLevalt,
+      xpForNextLevel: xpForNextLevel,
       progressPercentage: Math.round(progressPercentage),
     };
   } catch (error) {
