@@ -172,104 +172,152 @@ const Quiz = ({
   }
 
   return (
-    <>
-      <div className="max-w-xl mx-auto mt-15 bg-white rounded-lg p-8 flex flex-col items-center">
-        <h1 className="text-3xl font-bold text-red-600 mb-4">
-          Quiz - {category}
-        </h1>
-        <p className="text-gray-600 mb-6">Difficulté : {difficulty}</p>
-        <div className="flex-col items-center mb-6">
-          <button
-            className="bg-blue-600 text-white px-8 py-3 rounded-lg hover:bg-blue-700 transition text-lg font-semibold"
-            onClick={onBackToHome}
-          >
-            Home
-          </button>
-        </div>
-        <hr />
-        {result ? (
-          <></>
-        ) : (
-          <>
-            <hr className="w-full mb-6 border-gray-200" />
-            <h2 className="text-xl font-semibold mb-6 text-gray-800">
-              {index + 1}. {question.question}
-            </h2>
-            {/* Si la question a une image on l'affiche */}
-            {question.image && (
-              <img
-                src={question.image}
-                alt="Question"
-                className="w-96 h-96 mb-4 rounded-lg shadow-md"
-              />
-            )}
-            <ul className="w-full mb-6 space-y-3">
-              <li
-                className="bg-gray-100 hover:bg-blue-100 cursor-pointer px-4 py-2 rounded transition"
-                ref={Option1}
-                onClick={(e) => {
-                  checkAnser(e, 1);
-                }}
-              >
-                {question.option1}
-              </li>
-              <li
-                className="bg-gray-100 hover:bg-blue-100 cursor-pointer px-4 py-2 rounded transition"
-                ref={Option2}
-                onClick={(e) => {
-                  checkAnser(e, 2);
-                }}
-              >
-                {question.option2}
-              </li>
-              <li
-                className="bg-gray-100 hover:bg-blue-100 cursor-pointer px-4 py-2 rounded transition"
-                ref={Option3}
-                onClick={(e) => {
-                  checkAnser(e, 3);
-                }}
-              >
-                {question.option3}
-              </li>
-              <li
-                className="bg-gray-100 hover:bg-blue-100 cursor-pointer px-4 py-2 rounded transition"
-                ref={Option4}
-                onClick={(e) => {
-                  checkAnser(e, 4);
-                }}
-              >
-                {question.option4}
-              </li>
-            </ul>
-            <button
-              className="bg-blue-600 text-white px-6 py-2 rounded hover:bg-blue-700 transition mb-4 cursor-pointer"
-              onClick={next}
-            >
-              Suivant
-            </button>
-            <div className="text-gray-500 text-sm">
-              Question {index + 1} sur {filteredQuestions.length}
+    <div className="min-h-screen bg-gradient-to-br from-slate-50 via-blue-50 to-indigo-100 p-8">
+      <div className="max-w-4xl mx-auto">
+        {/* En-tête du quiz */}
+        <div className="bg-white rounded-3xl shadow-2xl overflow-hidden border border-gray-100 mb-8">
+          <div className="bg-gradient-to-r from-blue-600 via-purple-600 to-pink-600 p-6">
+            <div className="text-center">
+              <h1 className="text-4xl font-bold text-white mb-2">
+                🧠 Quiz - {category}
+              </h1>
+              <div className="flex justify-center items-center gap-6 text-white">
+                <span className="bg-white/20 px-4 py-2 rounded-full">
+                  📊 Difficulté :{" "}
+                  <span className="font-semibold">{difficulty}</span>
+                </span>
+                <span className="bg-white/20 px-4 py-2 rounded-full">
+                  📝 Question {index + 1} sur {filteredQuestions.length}
+                </span>
+              </div>
             </div>
-          </>
-        )}
-        {result ? (
-          <>
-            <h2>
-              You scored {score} of {filteredQuestions.length}
-            </h2>
-            <button
-              className="bg-black text-red-500 p-5 m-5 rounded-2px cursor-pointer"
-              onClick={reset}
-            >
-              Reset
-            </button>
-          </>
-        ) : (
-          <></>
-        )}
+          </div>
+
+          <div className="p-8">
+            <div className="flex justify-center mb-6">
+              <button
+                className="bg-gradient-to-r from-gray-500 to-gray-600 text-white px-6 py-2 rounded-2xl hover:scale-105 transition-transform duration-200 font-semibold shadow-lg"
+                onClick={onBackToHome}
+              >
+                🏠 Accueil
+              </button>
+            </div>
+
+            {result ? (
+              /* Écran de résultat */
+              <div className="text-center">
+                <div className="text-8xl mb-6">
+                  {score >= filteredQuestions.length * 0.8
+                    ? "🏆"
+                    : score >= filteredQuestions.length * 0.6
+                    ? "🥈"
+                    : score >= filteredQuestions.length * 0.4
+                    ? "🥉"
+                    : "💪"}
+                </div>
+                <h2 className="text-4xl font-bold mb-4 bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
+                  Quiz terminé !
+                </h2>
+                <div className="bg-gradient-to-r from-blue-50 to-purple-50 rounded-2xl p-8 mb-6">
+                  <div className="text-6xl font-bold text-blue-600 mb-2">
+                    {score}/{filteredQuestions.length}
+                  </div>
+                  <div className="text-gray-600 text-lg">
+                    Score :{" "}
+                    {((score / filteredQuestions.length) * 100).toFixed(1)}%
+                  </div>
+                </div>
+                <button
+                  className="bg-gradient-to-r from-green-500 to-green-600 text-white px-8 py-3 rounded-2xl hover:scale-105 transition-transform duration-200 text-lg font-semibold shadow-lg"
+                  onClick={reset}
+                >
+                  🔄 Recommencer
+                </button>
+              </div>
+            ) : (
+              /* Question actuelle */
+              <>
+                <div className="mb-8">
+                  <h2 className="text-2xl font-bold mb-6 text-gray-800 text-center">
+                    {question.question}
+                  </h2>
+
+                  {question.image && (
+                    <div className="flex justify-center mb-6">
+                      <img
+                        src={question.image}
+                        alt="Question"
+                        className="max-w-md h-auto rounded-2xl shadow-lg border border-gray-200"
+                      />
+                    </div>
+                  )}
+                </div>
+
+                <div className="grid gap-4 mb-8">
+                  {[
+                    { ref: Option1, text: question.option1, num: 1 },
+                    { ref: Option2, text: question.option2, num: 2 },
+                    { ref: Option3, text: question.option3, num: 3 },
+                    { ref: Option4, text: question.option4, num: 4 },
+                  ].map((option) => (
+                    <div
+                      key={option.num}
+                      className="bg-gray-50 hover:bg-blue-50 cursor-pointer px-6 py-4 rounded-2xl transition-all duration-200 border border-gray-200 hover:border-blue-300 hover:shadow-lg"
+                      ref={option.ref}
+                      onClick={(e) => checkAnser(e, option.num)}
+                    >
+                      <div className="flex items-center">
+                        <span className="inline-flex items-center justify-center w-8 h-8 rounded-full bg-blue-100 text-blue-600 font-bold mr-4 text-sm">
+                          {String.fromCharCode(64 + option.num)}
+                        </span>
+                        <span className="text-gray-800 font-medium">
+                          {option.text}
+                        </span>
+                      </div>
+                    </div>
+                  ))}
+                </div>
+
+                <div className="text-center">
+                  <button
+                    className="bg-gradient-to-r from-blue-600 to-purple-600 text-white px-8 py-3 rounded-2xl hover:scale-105 transition-transform duration-200 font-semibold shadow-lg text-lg"
+                    onClick={next}
+                  >
+                    {index === filteredQuestions.length - 1
+                      ? "🏁 Terminer"
+                      : "➡️ Suivant"}
+                  </button>
+                </div>
+
+                {/* Barre de progression */}
+                <div className="mt-8">
+                  <div className="flex justify-between text-sm text-gray-500 mb-2">
+                    <span>Progression</span>
+                    <span>
+                      {Math.round(
+                        ((index + 1) / filteredQuestions.length) * 100
+                      )}
+                      %
+                    </span>
+                  </div>
+                  <div className="w-full bg-gray-200 rounded-full h-3">
+                    <div
+                      className="bg-gradient-to-r from-blue-600 to-purple-600 h-3 rounded-full transition-all duration-300"
+                      style={{
+                        width: `${
+                          ((index + 1) / filteredQuestions.length) * 100
+                        }%`,
+                      }}
+                    ></div>
+                  </div>
+                </div>
+              </>
+            )}
+          </div>
+        </div>
       </div>
       <Footer />
-    </>
+    </div>
   );
 };
 
