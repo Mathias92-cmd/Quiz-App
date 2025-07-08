@@ -65,7 +65,7 @@ const Home = ({ onStartQuiz }) => {
           </button>
 
           <button
-            onClick={onStartQuiz}
+            onClick={() => handleCategorySelect("drapeaux")}
             className="bg-gradient-to-br from-yellow-400 to-orange-400 rounded-2xl p-8 text-center cursor-pointer hover:scale-105 transition-transform duration-200 h-82 flex flex-col justify-center focus:outline-none focus:ring-4 focus:ring-yellow-300"
           >
             <div className="text-white text-6xl mb-6">🏴</div>
