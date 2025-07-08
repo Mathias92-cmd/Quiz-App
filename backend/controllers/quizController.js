@@ -46,7 +46,7 @@ export const getUserStats = async (req, res) => {
     const progression = await getUserProgression(userId);
 
     res.status(200).json({
-      success: false,
+      success: true,
       data: {
         user,
         progression,
