@@ -18,7 +18,7 @@ const Navbar = ({ onLogin, onRegister, onHome }) => {
               onClick={onHome}
               className="text-xl font-bold hover:text-blue-200 transition cursor-pointer"
             >
-              Logo
+              QuizMask
             </button>
           </div>
 
@@ -44,7 +44,7 @@ const Navbar = ({ onLogin, onRegister, onHome }) => {
               </span>
               <button
                 onClick={handleLogout}
-                className="bg-red-500 hover:bg-red-400 px-4 py-2 rounded-lg transition"
+                className="bg-red-500 hover:bg-red-400 px-4 py-2 rounded-lg transition cursor-pointer"
               >
                 Logout
               </button>

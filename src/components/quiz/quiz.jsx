@@ -343,7 +343,7 @@ const Quiz = ({
 
                 <div className="text-center mb-4">
                   <button
-                    className="bg-gradient-to-r from-blue-600 to-purple-600 text-white px-6 py-2 rounded-2xl hover:scale-105 transition-transform duration-200 font-semibold shadow-lg text-base"
+                    className="bg-gradient-to-r from-blue-600 to-purple-600 text-white px-6 py-2 rounded-2xl hover:scale-105 transition-transform duration-200 font-semibold shadow-lg text-base cursor-pointer"
                     onClick={next}
                   >
                     {index === filteredQuestions.length - 1

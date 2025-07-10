@@ -46,7 +46,10 @@ const Home = ({ onStartQuiz }) => {
         </span>
         {/*Button to start the quiz*/}
         <span className="flex items-center justify-center mt-4">
-          <button className="bg-gradient-to-r from-yellow-400 to-yellow-500 rounded-2xl mt-6 px-6 p-3 cursor-pointer text-white font-bold text-2xl">
+          <button
+            className="bg-gradient-to-r from-yellow-400 to-yellow-500 rounded-2xl mt-6 px-6 p-3 cursor-pointer text-white font-bold text-2xl"
+            onClick={() => handleCategorySelect("culture")}
+          >
             Commencer
           </button>
         </span>
@@ -81,11 +84,11 @@ const Home = ({ onStartQuiz }) => {
           </button>
 
           <button
-            onClick={onStartQuiz}
+            onClick={() => handleCategorySelect("culture")}
             className="bg-gradient-to-br from-cyan-300 to-blue-400 rounded-2xl p-8 text-center cursor-pointer hover:scale-105 transition-transform duration-200 h-82 flex flex-col justify-center focus:outline-none focus:ring-4 focus:ring-cyan-300"
           >
             <div className="text-white text-6xl mb-6">🏛️</div>
-            <h3 className="text-white font-bold text-2xl">Histoire</h3>
+            <h3 className="text-white font-bold text-2xl">Culture</h3>
           </button>
 
           <button

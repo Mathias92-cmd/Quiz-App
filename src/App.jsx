@@ -125,7 +125,7 @@ export const App = () => {
               onClick={() => handleNumberOfQuestionsSelected(5)}
               className="bg-gradient-to-br from-blue-400 to-blue-600 rounded-2xl p-6 text-center cursor-pointer hover:scale-105 transition-transform duration-200 focus:outline-none focus:ring-4 focus:ring-blue-300 shadow-lg"
             >
-              <div className="text-white text-4xl mb-2">5️⃣</div>
+              <div className="text-white text-4xl mb-2">5</div>
               <h3 className="text-white font-bold text-xl mb-1">5 Questions</h3>
               <p className="text-blue-100 text-sm">Rapide</p>
             </button>
@@ -134,7 +134,7 @@ export const App = () => {
               onClick={() => handleNumberOfQuestionsSelected(10)}
               className="bg-gradient-to-br from-green-400 to-green-600 rounded-2xl p-6 text-center cursor-pointer hover:scale-105 transition-transform duration-200 focus:outline-none focus:ring-4 focus:ring-green-300 shadow-lg"
             >
-              <div className="text-white text-4xl mb-2">🔟</div>
+              <div className="text-white text-4xl mb-2">10</div>
               <h3 className="text-white font-bold text-xl mb-1">
                 10 Questions
               </h3>
@@ -145,7 +145,7 @@ export const App = () => {
               onClick={() => handleNumberOfQuestionsSelected(15)}
               className="bg-gradient-to-br from-yellow-400 to-orange-500 rounded-2xl p-6 text-center cursor-pointer hover:scale-105 transition-transform duration-200 focus:outline-none focus:ring-4 focus:ring-yellow-300 shadow-lg"
             >
-              <div className="text-white text-4xl mb-2">1️⃣5️⃣</div>
+              <div className="text-white text-4xl mb-2">15</div>
               <h3 className="text-white font-bold text-xl mb-1">
                 15 Questions
               </h3>
@@ -156,7 +156,7 @@ export const App = () => {
               onClick={() => handleNumberOfQuestionsSelected(20)}
               className="bg-gradient-to-br from-red-500 to-red-700 rounded-2xl p-6 text-center cursor-pointer hover:scale-105 transition-transform duration-200 focus:outline-none focus:ring-4 focus:ring-red-300 shadow-lg"
             >
-              <div className="text-white text-4xl mb-2">2️⃣0️⃣</div>
+              <div className="text-white text-4xl mb-2">20</div>
               <h3 className="text-white font-bold text-xl mb-1">
                 20 Questions
               </h3>
