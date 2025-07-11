@@ -1695,7 +1695,7 @@ export const data = {
     // QUESTIONS AVEC VOS IMAGES EXISTANTES
     {
       question: "Qui est cet athlète spécialiste du saut à la perche ?",
-      image: "src/assets/images/duplantis.png",
+      image: "images/duplantis.png",
       option1: "Renaud Lavillenie",
       option2: "Armand Duplantis",
       option3: "Sam Kendricks",
@@ -1706,7 +1706,7 @@ export const data = {
     {
       question:
         "Qui est ce cycliste slovène, triple vainqueur du Tour de France ?",
-      image: "src/assets/images/tadej.png",
+      image: "images/tadej.png",
       option1: "Primož Roglič",
       option2: "Tadej Pogačar",
       option3: "Egan Bernal",
@@ -1716,7 +1716,7 @@ export const data = {
     },
     {
       question: "Qui est ce footballeur argentin, Ballon d'Or 2023 ?",
-      image: "src/assets/images/messi.jpg",
+      image: "images/messi.jpg",
       option1: "Cristiano Ronaldo",
       option2: "Neymar Jr",
       option3: "Lionel Messi",
@@ -1726,7 +1726,7 @@ export const data = {
     },
     {
       question: "Qui est cet athlète de biathlon ?",
-      image: "src/assets/images/martin.jpg",
+      image: "images/martin.jpg",
       option1: "Martin Fourcade",
       option2: "Johannes Thingnes Bø",
       option3: "Emil Hegle Svendsen",
@@ -1737,7 +1737,7 @@ export const data = {
     {
       question:
         "Qui est ce pilote français spécialiste du freestyle motocross ?",
-      image: "src/assets/images/tom-pages.jpg",
+      image: "images/tom-pages.jpg",
       option1: "Rémi Bizouard",
       option2: "Tom Pagès",
       option3: "David Rinaldo",
@@ -1747,7 +1747,7 @@ export const data = {
     },
     {
       question: "Qui est cet athlète japonais ?",
-      image: "src/assets/images/abe_uta_163500.webp",
+      image: "images/abe_uta_163500.webp",
       option1: "Yuki Kawauchi",
       option2: "Abe Uta",
       option3: "Suguru Osako",
@@ -1958,7 +1958,7 @@ export const data = {
   manga: [
     {
       question: "Qui est ce personnage de mange ? ",
-      image: "src/assets/images/manga/akane.webp",
+      image: "images/manga/akane.webp",
       option1: "Akane Tsunemori",
       option2: "Sakura Haruno",
       option3: "Hinata Hyuga",
@@ -1968,7 +1968,7 @@ export const data = {
     },
     {
       question: "Qui est ce personnage de manga ?",
-      image: "src/assets/images/manga/aizen.webp",
+      image: "images/manga/aizen.webp",
       option1: "Renji Yomo",
       option2: "Ichigo Kurosaki",
       option3: "Aizen Sosuke",
@@ -1978,7 +1978,7 @@ export const data = {
     },
     {
       question: "Qui est ce personnage de manga ?",
-      image: "src/assets/images/manga/akame.jpg",
+      image: "images/manga/akame.jpg",
       option1: "Akame",
       option2: "Esdeath",
       option3: "Tatsumi",
@@ -1988,7 +1988,7 @@ export const data = {
     },
     {
       question: "Qui est ce personnage de manga ?",
-      image: "src/assets/images/manga/allen_walker.webp",
+      image: "images/manga/allen_walker.webp",
       option1: "Allen Walker",
       option2: "Yuu Kanda",
       option3: "Lavi",
@@ -1998,7 +1998,7 @@ export const data = {
     },
     {
       question: "Qui est ce personnage de manga ?",
-      image: "src/assets/images/manga/asuna.webp",
+      image: "images/manga/asuna.webp",
       option1: "Asuna Yuuki",
       option2: "Kirito",
       option3: "Suguha Kirigaya",
@@ -2008,7 +2008,7 @@ export const data = {
     },
     {
       question: "Qui est ce personnage de manga ?",
-      image: "src/assets/images/manga/bonclay.webp",
+      image: "images/manga/bonclay.webp",
       option1: "Bon Clay",
       option2: "Sanji",
       option3: "Zoro",
@@ -2018,7 +2018,7 @@ export const data = {
     },
     {
       question: "Quel est le nom de ce personnage de Bleach ?",
-      image: "src/assets/images/manga/aizen.webp",
+      image: "images/manga/aizen.webp",
       option1: "Byakuya Kuchiki",
       option2: "Sosuke Aizen",
       option3: "Gin Ichimaru",
@@ -2028,7 +2028,7 @@ export const data = {
     },
     {
       question: "Dans quel anime apparaît ce personnage ?",
-      image: "src/assets/images/manga/akame.jpg",
+      image: "images/manga/akame.jpg",
       option1: "Fairy Tail",
       option2: "Soul Eater",
       option3: "Akame ga Kill!",
@@ -2038,7 +2038,7 @@ export const data = {
     },
     {
       question: "Quel est le nom de cette tueuse d'élite ?",
-      image: "src/assets/images/manga/akane.webp",
+      image: "images/manga/akane.webp",
       option1: "Akane Tsunemori",
       option2: "Mikasa Ackerman",
       option3: "Revy",
@@ -2048,7 +2048,7 @@ export const data = {
     },
     {
       question: "Ce personnage vient de quel manga ?",
-      image: "src/assets/images/manga/allen_walker.webp",
+      image: "images/manga/allen_walker.webp",
       option1: "Soul Eater",
       option2: "Blue Exorcist",
       option3: "Black Butler",
@@ -2058,7 +2058,7 @@ export const data = {
     },
     {
       question: "Quel est le nom de cette épéiste virtuelle ?",
-      image: "src/assets/images/manga/asuna.webp",
+      image: "images/manga/asuna.webp",
       option1: "Sinon",
       option2: "Asuna Yuuki",
       option3: "Silica",
@@ -2068,7 +2068,7 @@ export const data = {
     },
     {
       question: "Dans One Piece, Mr. 2 s'appelle aussi :",
-      image: "src/assets/images/manga/bonclay.webp",
+      image: "images/manga/bonclay.webp",
       option1: "Bon Clay",
       option2: "Mr. Bentham",
       option3: "Baroque Works",
@@ -2078,7 +2078,7 @@ export const data = {
     },
     {
       question: "Quel est le surnom de ce personnage explosif ?",
-      image: "src/assets/images/manga/deidara.webp",
+      image: "images/manga/deidara.webp",
       option1: "L'Artiste Explosif",
       option2: "Le Maître des Bombes",
       option3: "L'Art Éphémère",
@@ -2088,7 +2088,7 @@ export const data = {
     },
     {
       question: "Quel est le vrai nom de ce héros ?",
-      image: "src/assets/images/manga/deku.webp",
+      image: "images/manga/deku.webp",
       option1: "Katsuki Bakugo",
       option2: "Shoto Todoroki",
       option3: "Tenya Iida",
@@ -2098,7 +2098,7 @@ export const data = {
     },
     {
       question: "Cette fille géniale vient de quel manga ?",
-      image: "src/assets/images/manga/emma.webp",
+      image: "images/manga/emma.webp",
       option1: "Dr. Stone",
       option2: "The Promised Neverland",
       option3: "Steins;Gate",
@@ -2108,7 +2108,7 @@ export const data = {
     },
     {
       question: "Eren Yeager peut se transformer en :",
-      image: "src/assets/images/manga/eren.webp",
+      image: "images/manga/eren.webp",
       option1: "Titan Colossal",
       option2: "Titan Bestial",
       option3: "Titan d'Attaque",
@@ -2118,7 +2118,7 @@ export const data = {
     },
     {
       question: "Cette mage elfe vient de quel manga ?",
-      image: "src/assets/images/manga/frieren.webp",
+      image: "images/manga/frieren.webp",
       option1: "Overlord",
       option2: "Goblin Slayer",
       option3: "Frieren",
@@ -2128,7 +2128,7 @@ export const data = {
     },
     {
       question: "Gabimaru est également connu sous le nom de :",
-      image: "src/assets/images/manga/gabimaru.webp",
+      image: "images/manga/gabimaru.webp",
       option1: "Le Démon de Feu",
       option2: "L'Assassin Vide",
       option3: "Le Ninja Immortel",
@@ -2138,7 +2138,7 @@ export const data = {
     },
     {
       question: "Quel est le surnom de ce sorcier aux yeux bleus ?",
-      image: "src/assets/images/manga/gojo.webp",
+      image: "images/manga/gojo.webp",
       option1: "Le Plus Fort",
       option2: "L'Œil Divin",
       option3: "Le Maître Absolu",
@@ -2148,7 +2148,7 @@ export const data = {
     },
     {
       question: "Guts manie une épée appelée :",
-      image: "src/assets/images/manga/guts.webp",
+      image: "images/manga/guts.webp",
       option1: "Excalibur",
       option2: "Dragon Slayer",
       option3: "Tessaiga",
@@ -2158,7 +2158,7 @@ export const data = {
     },
     {
       question: "De quel manga vient ce personnage :",
-      image: "src/assets/images/manga/hinata.webp",
+      image: "images/manga/hinata.webp",
       option1: "Haikyuu!!",
       option2: "Kuroko's Basketball",
       option3: "Yuri on Ice",
@@ -2168,7 +2168,7 @@ export const data = {
     },
     {
       question: "Hisoka est obsédé par :",
-      image: "src/assets/images/manga/hisoka.png",
+      image: "images/manga/hisoka.png",
       option1: "L'argent",
       option2: "Le pouvoir",
       option3: "Les combats excitants",
@@ -2178,7 +2178,7 @@ export const data = {
     },
     {
       question: "Yoichi Isagi joue dans quel manga de football ?",
-      image: "src/assets/images/manga/isagi.webp",
+      image: "images/manga/isagi.webp",
       option1: "Captain Tsubasa",
       option2: "Blue Lock",
       option3: "Giant Killing",
@@ -2188,7 +2188,7 @@ export const data = {
     },
     {
       question: "Kageyama est connu comme :",
-      image: "src/assets/images/manga/kageyama.webp",
+      image: "images/manga/kageyama.webp",
       option1: "Le Roi du Terrain",
       option2: "Le Génie du Volley",
       option3: "Le Passeur Prodige",
@@ -2198,7 +2198,7 @@ export const data = {
     },
     {
       question: "Quel est le surnom de Kakashi ?",
-      image: "src/assets/images/manga/kakashi.webp",
+      image: "images/manga/kakashi.webp",
       option1: "Le Ninja Copieur",
       option2: "L'Éclair Jaune",
       option3: "Le Sannin Légendaire",
@@ -2208,7 +2208,7 @@ export const data = {
     },
     {
       question: "Dans quel sport excelle ce personnage ?",
-      image: "src/assets/images/manga/kakeru.jpg",
+      image: "images/manga/kakeru.jpg",
       option1: "Basketball",
       option2: "Football",
       option3: "Course à pied",
@@ -2218,7 +2218,7 @@ export const data = {
     },
     {
       question: "Kamina pilote quel type de mecha ?",
-      image: "src/assets/images/manga/kamina.webp",
+      image: "images/manga/kamina.webp",
       option1: "Gundam",
       option2: "Gurren",
       option3: "Evangelion",
@@ -2228,7 +2228,7 @@ export const data = {
     },
     {
       question: "Kanki est un général de quel royaume ?",
-      image: "src/assets/images/manga/kanki.webp",
+      image: "images/manga/kanki.webp",
       option1: "Qin",
       option2: "Zhao",
       option3: "Wei",
@@ -2238,7 +2238,7 @@ export const data = {
     },
     {
       question: "Killua maîtrise quelle technique spéciale ?",
-      image: "src/assets/images/manga/killua.jpg",
+      image: "images/manga/killua.jpg",
       option1: "Le Nen de feu",
       option2: "L'électricité",
       option3: "La téléportation",
@@ -2248,7 +2248,7 @@ export const data = {
     },
     {
       question: "Light possède un carnet appelé :",
-      image: "src/assets/images/manga/light.webp",
+      image: "images/manga/light.webp",
       option1: "Death Note",
       option2: "Life Note",
       option3: "Kill Note",
@@ -2258,7 +2258,7 @@ export const data = {
     },
     {
       question: "Monkey D. Luffy a mangé le fruit :",
-      image: "src/assets/images/manga/luffy.webp",
+      image: "images/manga/luffy.webp",
       option1: "Gomu Gomu no Mi",
       option2: "Mera Mera no Mi",
       option3: "Gura Gura no Mi",
@@ -2268,7 +2268,7 @@ export const data = {
     },
     {
       question: "Muichiro est le pilier de :",
-      image: "src/assets/images/manga/muichiro.webp",
+      image: "images/manga/muichiro.webp",
       option1: "La Brume",
       option2: "L'Eau",
       option3: "Le Vent",
@@ -2278,7 +2278,7 @@ export const data = {
     },
     {
       question: "Natsu est un Dragon Slayer de quel élément ?",
-      image: "src/assets/images/manga/natsu.webp",
+      image: "images/manga/natsu.webp",
       option1: "Glace",
       option2: "Fer",
       option3: "Feu",
@@ -2288,7 +2288,7 @@ export const data = {
     },
     {
       question: "Nozen Sekai vient de quel anime ?",
-      image: "src/assets/images/manga/nozen.webp",
+      image: "images/manga/nozen.webp",
       option1: "86",
       option2: "Code Geass",
       option3: "Guilty Crown",
@@ -2298,7 +2298,7 @@ export const data = {
     },
     {
       question: "Obito était dans la même équipe que :",
-      image: "src/assets/images/manga/obito.webp",
+      image: "images/manga/obito.webp",
       option1: "Naruto et Sasuke",
       option2: "Kakashi et Rin",
       option3: "Yamato et Sai",
@@ -2308,7 +2308,7 @@ export const data = {
     },
     {
       question: "GTO signifie :",
-      image: "src/assets/images/manga/onizuka.webp",
+      image: "images/manga/onizuka.webp",
       option1: "Great Teacher Onizuka",
       option2: "Golden Time Otaku",
       option3: "Grand Tokyo Organization",
@@ -2318,7 +2318,7 @@ export const data = {
     },
     {
       question: "Riboku est un stratège de quel royaume ?",
-      image: "src/assets/images/manga/riboku.webp",
+      image: "images/manga/riboku.webp",
       option1: "Qin",
       option2: "Zhao",
       option3: "Wei",
@@ -2328,7 +2328,7 @@ export const data = {
     },
     {
       question: "Rimuru était à l'origine :",
-      image: "src/assets/images/manga/rimuru.jpg",
+      image: "images/manga/rimuru.jpg",
       option1: "Un dragon",
       option2: "Un humain",
       option3: "Un démon",
@@ -2338,7 +2338,7 @@ export const data = {
     },
     {
       question: "Sagiri est la sœur de :",
-      image: "src/assets/images/manga/sagiri.webp",
+      image: "images/manga/sagiri.webp",
       option1: "Masamune",
       option2: "Tomoya",
       option3: "Kazuya",
@@ -2348,7 +2348,7 @@ export const data = {
     },
     {
       question: "Sanji travaillait au restaurant :",
-      image: "src/assets/images/manga/sanji.jpg",
+      image: "images/manga/sanji.jpg",
       option1: "Baratie",
       option2: "Sabaodie",
       option3: "Fishman Island",
@@ -2358,7 +2358,7 @@ export const data = {
     },
     {
       question: "Sasuke cherche à venger :",
-      image: "src/assets/images/manga/sasuke.webp",
+      image: "images/manga/sasuke.webp",
       option1: "Ses parents",
       option2: "Son clan",
       option3: "Son village",
@@ -2368,7 +2368,7 @@ export const data = {
     },
     {
       question: "Shanks a perdu son bras en sauvant :",
-      image: "src/assets/images/manga/shanks.webp",
+      image: "images/manga/shanks.webp",
       option1: "Ace",
       option2: "Luffy",
       option3: "Sabo",
@@ -2378,7 +2378,7 @@ export const data = {
     },
     {
       question: "Shin Nohara se bat pour unifier :",
-      image: "src/assets/images/manga/shin.webp",
+      image: "images/manga/shin.webp",
       option1: "Le Japon",
       option2: "La Chine",
       option3: "La Corée",
@@ -2388,7 +2388,7 @@ export const data = {
     },
     {
       question: "Shinra possède le pouvoir de :",
-      image: "src/assets/images/manga/shinra.jpg",
+      image: "images/manga/shinra.jpg",
       option1: "La glace",
       option2: "La foudre",
       option3: "Les flammes",
@@ -2398,7 +2398,7 @@ export const data = {
     },
     {
       question: "Shoto Todoroki maîtrise :",
-      image: "src/assets/images/manga/shoto.webp",
+      image: "images/manga/shoto.webp",
       option1: "Le feu et la glace",
       option2: "L'électricité",
       option3: "La gravité",
@@ -2408,7 +2408,7 @@ export const data = {
     },
     {
       question: "Tanjiro combat principalement :",
-      image: "src/assets/images/manga/tanjiro.jpg",
+      image: "images/manga/tanjiro.jpg",
       option1: "Des vampires",
       option2: "Des démons",
       option3: "Des titans",
@@ -2418,7 +2418,7 @@ export const data = {
     },
     {
       question: "Toshiro Hitsugaya est capitaine de la :",
-      image: "src/assets/images/manga/toshiro.webp",
+      image: "images/manga/toshiro.webp",
       option1: "8ème division",
       option2: "10ème division",
       option3: "11ème division",
@@ -2428,7 +2428,7 @@ export const data = {
     },
     {
       question: "Yukino Yukinoshita fait partie du :",
-      image: "src/assets/images/manga/yukino.webp",
+      image: "images/manga/yukino.webp",
       option1: "Club de littérature",
       option2: "Club de service",
       option3: "Club de théâtre",
@@ -2440,7 +2440,7 @@ export const data = {
   drapeaux: [
     {
       question: "Quel est le drapeau de ce pays ?",
-      image: "src/assets/images/flag/ad.svg",
+      image: "images/flag/ad.svg",
       option1: "Andorre",
       option2: "Autriche",
       option3: "Allemagne",
@@ -2449,7 +2449,7 @@ export const data = {
     },
     {
       question: "Quel est le drapeau de ce pays ?",
-      image: "src/assets/images/flag/ae.svg",
+      image: "images/flag/ae.svg",
       option1: "Yémen",
       option2: "Émirats Arabes Unis",
       option3: "Arabie Saoudite",
@@ -2459,7 +2459,7 @@ export const data = {
     },
     {
       question: "Quel est le drapeau de ce pays ?",
-      image: "src/assets/images/flag/af.svg",
+      image: "images/flag/af.svg",
       option1: "Pakistan",
       option2: "Iran",
       option3: "Afghanistan",
@@ -2469,7 +2469,7 @@ export const data = {
     },
     {
       question: "Quel est le drapeau de ce pays ?",
-      image: "src/assets/images/flag/ag.svg",
+      image: "images/flag/ag.svg",
       option1: "Barbade",
       option2: "Jamaïque",
       option3: "Trinidad-et-Tobago",
@@ -2479,7 +2479,7 @@ export const data = {
     },
     {
       question: "Quel est le drapeau de ce pays ?",
-      image: "src/assets/images/flag/al.svg",
+      image: "images/flag/al.svg",
       option1: "Albanie",
       option2: "Monténégro",
       option3: "Macédoine du Nord",
@@ -2489,7 +2489,7 @@ export const data = {
     },
     {
       question: "Quel est le drapeau de ce pays ?",
-      image: "src/assets/images/flag/am.svg",
+      image: "images/flag/am.svg",
       option1: "Géorgie",
       option2: "Arménie",
       option3: "Azerbaïdjan",
@@ -2499,7 +2499,7 @@ export const data = {
     },
     {
       question: "Quel est le drapeau de ce pays ?",
-      image: "src/assets/images/flag/ar.svg",
+      image: "images/flag/ar.svg",
       option1: "Uruguay",
       option2: "Chili",
       option3: "Argentine",
@@ -2509,7 +2509,7 @@ export const data = {
     },
     {
       question: "Quel est le drapeau de ce pays ?",
-      image: "src/assets/images/flag/at.svg",
+      image: "images/flag/at.svg",
       option1: "Pologne",
       option2: "Monaco",
       option3: "Lettonie",
@@ -2519,7 +2519,7 @@ export const data = {
     },
     {
       question: "Quel est le drapeau de ce pays ?",
-      image: "src/assets/images/flag/au.svg",
+      image: "images/flag/au.svg",
       option1: "Australie",
       option2: "Nouvelle-Zélande",
       option3: "Fiji",
@@ -2529,7 +2529,7 @@ export const data = {
     },
     {
       question: "Quel est le drapeau de ce pays ?",
-      image: "src/assets/images/flag/az.svg",
+      image: "images/flag/az.svg",
       option1: "Kazakhstan",
       option2: "Azerbaïdjan",
       option3: "Ouzbékistan",
@@ -2539,7 +2539,7 @@ export const data = {
     },
     {
       question: "Quel est le drapeau de ce pays ?",
-      image: "src/assets/images/flag/ba.svg",
+      image: "images/flag/ba.svg",
       option1: "Serbie",
       option2: "Croatie",
       option3: "Bosnie-Herzégovine",
@@ -2549,7 +2549,7 @@ export const data = {
     },
     {
       question: "Quel est le drapeau de ce pays ?",
-      image: "src/assets/images/flag/bb.svg",
+      image: "images/flag/bb.svg",
       option1: "Jamaïque",
       option2: "Trinidad-et-Tobago",
       option3: "Sainte-Lucie",
@@ -2559,7 +2559,7 @@ export const data = {
     },
     {
       question: "Quel est le drapeau de ce pays ?",
-      image: "src/assets/images/flag/bd.svg",
+      image: "images/flag/bd.svg",
       option1: "Bangladesh",
       option2: "Japon",
       option3: "Palau",
@@ -2569,7 +2569,7 @@ export const data = {
     },
     {
       question: "Quel est le drapeau de ce pays ?",
-      image: "src/assets/images/flag/be.svg",
+      image: "images/flag/be.svg",
       option1: "Allemagne",
       option2: "Belgique",
       option3: "Roumanie",
@@ -2579,7 +2579,7 @@ export const data = {
     },
     {
       question: "Quel est le drapeau de ce pays ?",
-      image: "src/assets/images/flag/bf.svg",
+      image: "images/flag/bf.svg",
       option1: "Mali",
       option2: "Niger",
       option3: "Burkina Faso",
@@ -2589,7 +2589,7 @@ export const data = {
     },
     {
       question: "Quel est le drapeau de ce pays ?",
-      image: "src/assets/images/flag/bg.svg",
+      image: "images/flag/bg.svg",
       option1: "Hongrie",
       option2: "Russie",
       option3: "Slovaquie",
@@ -2599,7 +2599,7 @@ export const data = {
     },
     {
       question: "Quel est le drapeau de ce pays ?",
-      image: "src/assets/images/flag/bh.svg",
+      image: "images/flag/bh.svg",
       option1: "Bahreïn",
       option2: "Qatar",
       option3: "Koweït",
@@ -2609,7 +2609,7 @@ export const data = {
     },
     {
       question: "Quel est le drapeau de ce pays ?",
-      image: "src/assets/images/flag/br.svg",
+      image: "images/flag/br.svg",
       option1: "Colombie",
       option2: "Brésil",
       option3: "Venezuela",
@@ -2619,7 +2619,7 @@ export const data = {
     },
     {
       question: "Quel est le drapeau de ce pays ?",
-      image: "src/assets/images/flag/by.svg",
+      image: "images/flag/by.svg",
       option1: "Lituanie",
       option2: "Lettonie",
       option3: "Biélorussie",
@@ -2629,7 +2629,7 @@ export const data = {
     },
     {
       question: "Quel est le drapeau de ce pays ?",
-      image: "src/assets/images/flag/ca.svg",
+      image: "images/flag/ca.svg",
       option1: "États-Unis",
       option2: "Mexique",
       option3: "Groenland",
@@ -2639,7 +2639,7 @@ export const data = {
     },
     {
       question: "Quel est le drapeau de ce pays ?",
-      image: "src/assets/images/flag/ch.svg",
+      image: "images/flag/ch.svg",
       option1: "Suisse",
       option2: "Autriche",
       option3: "Monaco",
@@ -2649,7 +2649,7 @@ export const data = {
     },
     {
       question: "Quel est le drapeau de ce pays ?",
-      image: "src/assets/images/flag/cl.svg",
+      image: "images/flag/cl.svg",
       option1: "Texas",
       option2: "Chili",
       option3: "Porto Rico",
@@ -2659,7 +2659,7 @@ export const data = {
     },
     {
       question: "Quel est le drapeau de ce pays ?",
-      image: "src/assets/images/flag/cn.svg",
+      image: "images/flag/cn.svg",
       option1: "Vietnam",
       option2: "Corée du Nord",
       option3: "Chine",
@@ -2669,7 +2669,7 @@ export const data = {
     },
     {
       question: "Quel est le drapeau de ce pays ?",
-      image: "src/assets/images/flag/co.svg",
+      image: "images/flag/co.svg",
       option1: "Venezuela",
       option2: "Équateur",
       option3: "Pérou",
@@ -2679,7 +2679,7 @@ export const data = {
     },
     {
       question: "Quel est le drapeau de ce pays ?",
-      image: "src/assets/images/flag/cr.svg",
+      image: "images/flag/cr.svg",
       option1: "Costa Rica",
       option2: "Honduras",
       option3: "Nicaragua",
@@ -2689,7 +2689,7 @@ export const data = {
     },
     {
       question: "Quel est le drapeau de ce pays ?",
-      image: "src/assets/images/flag/cu.svg",
+      image: "images/flag/cu.svg",
       option1: "Porto Rico",
       option2: "Cuba",
       option3: "République dominicaine",
@@ -2699,7 +2699,7 @@ export const data = {
     },
     {
       question: "Quel est le drapeau de ce pays ?",
-      image: "src/assets/images/flag/cy.svg",
+      image: "images/flag/cy.svg",
       option1: "Malte",
       option2: "Grèce",
       option3: "Chypre",
@@ -2709,7 +2709,7 @@ export const data = {
     },
     {
       question: "Quel est le drapeau de ce pays ?",
-      image: "src/assets/images/flag/cz.svg",
+      image: "images/flag/cz.svg",
       option1: "Slovaquie",
       option2: "Pologne",
       option3: "Hongrie",
@@ -2719,7 +2719,7 @@ export const data = {
     },
     {
       question: "Quel est le drapeau de ce pays ?",
-      image: "src/assets/images/flag/de.svg",
+      image: "images/flag/de.svg",
       option1: "Allemagne",
       option2: "Belgique",
       option3: "Roumanie",
@@ -2729,7 +2729,7 @@ export const data = {
     },
     {
       question: "Quel est le drapeau de ce pays ?",
-      image: "src/assets/images/flag/dk.svg",
+      image: "images/flag/dk.svg",
       option1: "Suède",
       option2: "Danemark",
       option3: "Norvège",
@@ -2739,7 +2739,7 @@ export const data = {
     },
     {
       question: "Quel est le drapeau de ce pays ?",
-      image: "src/assets/images/flag/dz.svg",
+      image: "images/flag/dz.svg",
       option1: "Maroc",
       option2: "Tunisie",
       option3: "Algérie",
@@ -2749,7 +2749,7 @@ export const data = {
     },
     {
       question: "Quel est le drapeau de ce pays ?",
-      image: "src/assets/images/flag/ec.svg",
+      image: "images/flag/ec.svg",
       option1: "Colombie",
       option2: "Venezuela",
       option3: "Pérou",
@@ -2759,7 +2759,7 @@ export const data = {
     },
     {
       question: "Quel est le drapeau de ce pays ?",
-      image: "src/assets/images/flag/ee.svg",
+      image: "images/flag/ee.svg",
       option1: "Estonie",
       option2: "Lettonie",
       option3: "Lituanie",
@@ -2769,7 +2769,7 @@ export const data = {
     },
     {
       question: "Quel est le drapeau de ce pays ?",
-      image: "src/assets/images/flag/eg.svg",
+      image: "images/flag/eg.svg",
       option1: "Syrie",
       option2: "Égypte",
       option3: "Irak",
@@ -2779,7 +2779,7 @@ export const data = {
     },
     {
       question: "Quel est le drapeau de ce pays ?",
-      image: "src/assets/images/flag/es.svg",
+      image: "images/flag/es.svg",
       option1: "Portugal",
       option2: "Andorre",
       option3: "Espagne",
@@ -2789,7 +2789,7 @@ export const data = {
     },
     {
       question: "Quel est le drapeau de ce pays ?",
-      image: "src/assets/images/flag/et.svg",
+      image: "images/flag/et.svg",
       option1: "Ghana",
       option2: "Bolivie",
       option3: "Mali",
@@ -2799,7 +2799,7 @@ export const data = {
     },
     {
       question: "Quel est le drapeau de ce pays ?",
-      image: "src/assets/images/flag/fi.svg",
+      image: "images/flag/fi.svg",
       option1: "Finlande",
       option2: "Suède",
       option3: "Norvège",
@@ -2809,7 +2809,7 @@ export const data = {
     },
     {
       question: "Quel est le drapeau de ce pays ?",
-      image: "src/assets/images/flag/fj.svg",
+      image: "images/flag/fj.svg",
       option1: "Tuvalu",
       option2: "Fiji",
       option3: "Vanuatu",
@@ -2819,7 +2819,7 @@ export const data = {
     },
     {
       question: "Quel est le drapeau de ce pays ?",
-      image: "src/assets/images/flag/fr.svg",
+      image: "images/flag/fr.svg",
       option1: "Pays-Bas",
       option2: "Luxembourg",
       option3: "France",
@@ -2829,7 +2829,7 @@ export const data = {
     },
     {
       question: "Quel est le drapeau de ce pays ?",
-      image: "src/assets/images/flag/gb.svg",
+      image: "images/flag/gb.svg",
       option1: "Écosse",
       option2: "Irlande",
       option3: "Angleterre",
@@ -2839,7 +2839,7 @@ export const data = {
     },
     {
       question: "Quel est le drapeau de ce pays ?",
-      image: "src/assets/images/flag/ge.svg",
+      image: "images/flag/ge.svg",
       option1: "Géorgie",
       option2: "Angleterre",
       option3: "Arménie",
@@ -2849,7 +2849,7 @@ export const data = {
     },
     {
       question: "Quel est le drapeau de ce pays ?",
-      image: "src/assets/images/flag/gh.svg",
+      image: "images/flag/gh.svg",
       option1: "Cameroun",
       option2: "Ghana",
       option3: "Guinée",
@@ -2859,7 +2859,7 @@ export const data = {
     },
     {
       question: "Quel est le drapeau de ce pays ?",
-      image: "src/assets/images/flag/gr.svg",
+      image: "images/flag/gr.svg",
       option1: "Chypre",
       option2: "Uruguay",
       option3: "Grèce",
@@ -2869,7 +2869,7 @@ export const data = {
     },
     {
       question: "Quel est le drapeau de ce pays ?",
-      image: "src/assets/images/flag/gt.svg",
+      image: "images/flag/gt.svg",
       option1: "Honduras",
       option2: "Nicaragua",
       option3: "El Salvador",
@@ -2879,7 +2879,7 @@ export const data = {
     },
     {
       question: "Quel est le drapeau de ce pays ?",
-      image: "src/assets/images/flag/hn.svg",
+      image: "images/flag/hn.svg",
       option1: "Honduras",
       option2: "Nicaragua",
       option3: "El Salvador",
@@ -2889,7 +2889,7 @@ export const data = {
     },
     {
       question: "Quel est le drapeau de ce pays ?",
-      image: "src/assets/images/flag/hr.svg",
+      image: "images/flag/hr.svg",
       option1: "Slovénie",
       option2: "Croatie",
       option3: "Serbie",
@@ -2899,7 +2899,7 @@ export const data = {
     },
     {
       question: "Quel est le drapeau de ce pays ?",
-      image: "src/assets/images/flag/hu.svg",
+      image: "images/flag/hu.svg",
       option1: "Bulgarie",
       option2: "Italie",
       option3: "Hongrie",
@@ -2909,7 +2909,7 @@ export const data = {
     },
     {
       question: "Quel est le drapeau de ce pays ?",
-      image: "src/assets/images/flag/id.svg",
+      image: "images/flag/id.svg",
       option1: "Monaco",
       option2: "Pologne",
       option3: "Singapour",
@@ -2919,7 +2919,7 @@ export const data = {
     },
     {
       question: "Quel est le drapeau de ce pays ?",
-      image: "src/assets/images/flag/ie.svg",
+      image: "images/flag/ie.svg",
       option1: "Irlande",
       option2: "Italie",
       option3: "Côte d'Ivoire",
@@ -2929,7 +2929,7 @@ export const data = {
     },
     {
       question: "Quel est le drapeau de ce pays ?",
-      image: "src/assets/images/flag/il.svg",
+      image: "images/flag/il.svg",
       option1: "Argentine",
       option2: "Israël",
       option3: "Uruguay",
@@ -2939,7 +2939,7 @@ export const data = {
     },
     {
       question: "Quel est le drapeau de ce pays ?",
-      image: "src/assets/images/flag/in.svg",
+      image: "images/flag/in.svg",
       option1: "Niger",
       option2: "Côte d'Ivoire",
       option3: "Inde",
@@ -2949,7 +2949,7 @@ export const data = {
     },
     {
       question: "Quel est le drapeau de ce pays ?",
-      image: "src/assets/images/flag/iq.svg",
+      image: "images/flag/iq.svg",
       option1: "Syrie",
       option2: "Égypte",
       option3: "Yémen",
@@ -2959,7 +2959,7 @@ export const data = {
     },
     {
       question: "Quel est le drapeau de ce pays ?",
-      image: "src/assets/images/flag/ir.svg",
+      image: "images/flag/ir.svg",
       option1: "Iran",
       option2: "Hongrie",
       option3: "Bulgarie",
@@ -2969,7 +2969,7 @@ export const data = {
     },
     {
       question: "Quel est le drapeau de ce pays ?",
-      image: "src/assets/images/flag/is.svg",
+      image: "images/flag/is.svg",
       option1: "Norvège",
       option2: "Islande",
       option3: "Danemark",
@@ -2979,7 +2979,7 @@ export const data = {
     },
     {
       question: "Quel est le drapeau de ce pays ?",
-      image: "src/assets/images/flag/it.svg",
+      image: "images/flag/it.svg",
       option1: "Mexique",
       option2: "Hongrie",
       option3: "Italie",
@@ -2989,7 +2989,7 @@ export const data = {
     },
     {
       question: "Quel est le drapeau de ce pays ?",
-      image: "src/assets/images/flag/jm.svg",
+      image: "images/flag/jm.svg",
       option1: "Tanzanie",
       option2: "Afrique du Sud",
       option3: "Kenya",
@@ -2999,7 +2999,7 @@ export const data = {
     },
     {
       question: "Quel est le drapeau de ce pays ?",
-      image: "src/assets/images/flag/jo.svg",
+      image: "images/flag/jo.svg",
       option1: "Jordanie",
       option2: "Palestine",
       option3: "Émirats Arabes Unis",
@@ -3009,7 +3009,7 @@ export const data = {
     },
     {
       question: "Quel est le drapeau de ce pays ?",
-      image: "src/assets/images/flag/jp.svg",
+      image: "images/flag/jp.svg",
       option1: "Corée du Sud",
       option2: "Japon",
       option3: "Bangladesh",
@@ -3019,7 +3019,7 @@ export const data = {
     },
     {
       question: "Quel est le drapeau de ce pays ?",
-      image: "src/assets/images/flag/ke.svg",
+      image: "images/flag/ke.svg",
       option1: "Tanzanie",
       option2: "Ouganda",
       option3: "Kenya",
@@ -3029,7 +3029,7 @@ export const data = {
     },
     {
       question: "Quel est le drapeau de ce pays ?",
-      image: "src/assets/images/flag/kg.svg",
+      image: "images/flag/kg.svg",
       option1: "Kazakhstan",
       option2: "Ouzbékistan",
       option3: "Turkménistan",
@@ -3039,7 +3039,7 @@ export const data = {
     },
     {
       question: "Quel est le drapeau de ce pays ?",
-      image: "src/assets/images/flag/kh.svg",
+      image: "images/flag/kh.svg",
       option1: "Cambodge",
       option2: "Laos",
       option3: "Thaïlande",
@@ -3049,7 +3049,7 @@ export const data = {
     },
     {
       question: "Quel est le drapeau de ce pays ?",
-      image: "src/assets/images/flag/kp.svg",
+      image: "images/flag/kp.svg",
       option1: "Corée du Sud",
       option2: "Corée du Nord",
       option3: "Mongolie",
@@ -3059,7 +3059,7 @@ export const data = {
     },
     {
       question: "Quel est le drapeau de ce pays ?",
-      image: "src/assets/images/flag/kr.svg",
+      image: "images/flag/kr.svg",
       option1: "Taïwan",
       option2: "Thaïlande",
       option3: "Corée du Sud",
@@ -3069,7 +3069,7 @@ export const data = {
     },
     {
       question: "Quel est le drapeau de ce pays ?",
-      image: "src/assets/images/flag/kw.svg",
+      image: "images/flag/kw.svg",
       option1: "Émirats Arabes Unis",
       option2: "Bahreïn",
       option3: "Qatar",
@@ -3079,7 +3079,7 @@ export const data = {
     },
     {
       question: "Quel est le drapeau de ce pays ?",
-      image: "src/assets/images/flag/la.svg",
+      image: "images/flag/la.svg",
       option1: "Laos",
       option2: "Vietnam",
       option3: "Cambodge",
@@ -3089,7 +3089,7 @@ export const data = {
     },
     {
       question: "Quel est le drapeau de ce pays ?",
-      image: "src/assets/images/flag/lb.svg",
+      image: "images/flag/lb.svg",
       option1: "Syrie",
       option2: "Liban",
       option3: "Jordanie",
@@ -3099,7 +3099,7 @@ export const data = {
     },
     {
       question: "Quel est le drapeau de ce pays ?",
-      image: "src/assets/images/flag/li.svg",
+      image: "images/flag/li.svg",
       option1: "Monaco",
       option2: "San Marin",
       option3: "Liechtenstein",
@@ -3109,7 +3109,7 @@ export const data = {
     },
     {
       question: "Quel est le drapeau de ce pays ?",
-      image: "src/assets/images/flag/lk.svg",
+      image: "images/flag/lk.svg",
       option1: "Bangladesh",
       option2: "Myanmar",
       option3: "Népal",
@@ -3119,7 +3119,7 @@ export const data = {
     },
     {
       question: "Quel est le drapeau de ce pays ?",
-      image: "src/assets/images/flag/lt.svg",
+      image: "images/flag/lt.svg",
       option1: "Lituanie",
       option2: "Lettonie",
       option3: "Estonie",
@@ -3129,7 +3129,7 @@ export const data = {
     },
     {
       question: "Quel est le drapeau de ce pays ?",
-      image: "src/assets/images/flag/lu.svg",
+      image: "images/flag/lu.svg",
       option1: "Pays-Bas",
       option2: "Luxembourg",
       option3: "France",
@@ -3139,7 +3139,7 @@ export const data = {
     },
     {
       question: "Quel est le drapeau de ce pays ?",
-      image: "src/assets/images/flag/lv.svg",
+      image: "images/flag/lv.svg",
       option1: "Lituanie",
       option2: "Estonie",
       option3: "Lettonie",
@@ -3149,7 +3149,7 @@ export const data = {
     },
     {
       question: "Quel est le drapeau de ce pays ?",
-      image: "src/assets/images/flag/ly.svg",
+      image: "images/flag/ly.svg",
       option1: "Algérie",
       option2: "Tunisie",
       option3: "Égypte",
@@ -3159,7 +3159,7 @@ export const data = {
     },
     {
       question: "Quel est le drapeau de ce pays ?",
-      image: "src/assets/images/flag/ma.svg",
+      image: "images/flag/ma.svg",
       option1: "Maroc",
       option2: "Tunisie",
       option3: "Algérie",
@@ -3169,7 +3169,7 @@ export const data = {
     },
     {
       question: "Quel est le drapeau de ce pays ?",
-      image: "src/assets/images/flag/mc.svg",
+      image: "images/flag/mc.svg",
       option1: "Pologne",
       option2: "Monaco",
       option3: "Indonésie",
@@ -3179,7 +3179,7 @@ export const data = {
     },
     {
       question: "Quel est le drapeau de ce pays ?",
-      image: "src/assets/images/flag/md.svg",
+      image: "images/flag/md.svg",
       option1: "Roumanie",
       option2: "Andorre",
       option3: "Moldova",
@@ -3189,7 +3189,7 @@ export const data = {
     },
     {
       question: "Quel est le drapeau de ce pays ?",
-      image: "src/assets/images/flag/me.svg",
+      image: "images/flag/me.svg",
       option1: "Serbie",
       option2: "Albanie",
       option3: "Macédoine du Nord",
@@ -3199,7 +3199,7 @@ export const data = {
     },
     {
       question: "Quel est le drapeau de ce pays ?",
-      image: "src/assets/images/flag/mg.svg",
+      image: "images/flag/mg.svg",
       option1: "Madagascar",
       option2: "Cameroun",
       option3: "Ghana",
@@ -3209,7 +3209,7 @@ export const data = {
     },
     {
       question: "Quel est le drapeau de ce pays ?",
-      image: "src/assets/images/flag/mk.svg",
+      image: "images/flag/mk.svg",
       option1: "Albanie",
       option2: "Macédoine du Nord",
       option3: "Monténégro",
@@ -3219,7 +3219,7 @@ export const data = {
     },
     {
       question: "Quel est le drapeau de ce pays ?",
-      image: "src/assets/images/flag/ml.svg",
+      image: "images/flag/ml.svg",
       option1: "Sénégal",
       option2: "Guinée",
       option3: "Mali",
@@ -3229,7 +3229,7 @@ export const data = {
     },
     {
       question: "Quel est le drapeau de ce pays ?",
-      image: "src/assets/images/flag/mm.svg",
+      image: "images/flag/mm.svg",
       option1: "Bangladesh",
       option2: "Laos",
       option3: "Sri Lanka",
@@ -3239,7 +3239,7 @@ export const data = {
     },
     {
       question: "Quel est le drapeau de ce pays ?",
-      image: "src/assets/images/flag/mn.svg",
+      image: "images/flag/mn.svg",
       option1: "Mongolie",
       option2: "Kazakhstan",
       option3: "Kirghizistan",
@@ -3249,7 +3249,7 @@ export const data = {
     },
     {
       question: "Quel est le drapeau de ce pays ?",
-      image: "src/assets/images/flag/mt.svg",
+      image: "images/flag/mt.svg",
       option1: "Chypre",
       option2: "Malte",
       option3: "Vatican",
@@ -3259,7 +3259,7 @@ export const data = {
     },
     {
       question: "Quel est le drapeau de ce pays ?",
-      image: "src/assets/images/flag/mv.svg",
+      image: "images/flag/mv.svg",
       option1: "Bangladesh",
       option2: "Pakistan",
       option3: "Maldives",
@@ -3269,7 +3269,7 @@ export const data = {
     },
     {
       question: "Quel est le drapeau de ce pays ?",
-      image: "src/assets/images/flag/mx.svg",
+      image: "images/flag/mx.svg",
       option1: "Guatemala",
       option2: "Honduras",
       option3: "Costa Rica",
@@ -3279,7 +3279,7 @@ export const data = {
     },
     {
       question: "Quel est le drapeau de ce pays ?",
-      image: "src/assets/images/flag/my.svg",
+      image: "images/flag/my.svg",
       option1: "Malaisie",
       option2: "Liberia",
       option3: "États-Unis",
@@ -3289,7 +3289,7 @@ export const data = {
     },
     {
       question: "Quel est le drapeau de ce pays ?",
-      image: "src/assets/images/flag/mz.svg",
+      image: "images/flag/mz.svg",
       option1: "Angola",
       option2: "Mozambique",
       option3: "Zambie",
@@ -3299,7 +3299,7 @@ export const data = {
     },
     {
       question: "Quel est le drapeau de ce pays ?",
-      image: "src/assets/images/flag/na.svg",
+      image: "images/flag/na.svg",
       option1: "Botswana",
       option2: "Afrique du Sud",
       option3: "Namibie",
@@ -3309,7 +3309,7 @@ export const data = {
     },
     {
       question: "Quel est le drapeau de ce pays ?",
-      image: "src/assets/images/flag/ne.svg",
+      image: "images/flag/ne.svg",
       option1: "Mali",
       option2: "Burkina Faso",
       option3: "Tchad",
@@ -3319,7 +3319,7 @@ export const data = {
     },
     {
       question: "Quel est le drapeau de ce pays ?",
-      image: "src/assets/images/flag/ng.svg",
+      image: "images/flag/ng.svg",
       option1: "Nigeria",
       option2: "Cameroun",
       option3: "Ghana",
@@ -3329,7 +3329,7 @@ export const data = {
     },
     {
       question: "Quel est le drapeau de ce pays ?",
-      image: "src/assets/images/flag/ni.svg",
+      image: "images/flag/ni.svg",
       option1: "Honduras",
       option2: "Nicaragua",
       option3: "El Salvador",
@@ -3339,7 +3339,7 @@ export const data = {
     },
     {
       question: "Quel est le drapeau de ce pays ?",
-      image: "src/assets/images/flag/nl.svg",
+      image: "images/flag/nl.svg",
       option1: "Luxembourg",
       option2: "France",
       option3: "Pays-Bas",
@@ -3349,7 +3349,7 @@ export const data = {
     },
     {
       question: "Quel est le drapeau de ce pays ?",
-      image: "src/assets/images/flag/no.svg",
+      image: "images/flag/no.svg",
       option1: "Suède",
       option2: "Danemark",
       option3: "Finlande",
@@ -3359,7 +3359,7 @@ export const data = {
     },
     {
       question: "Quel est le drapeau de ce pays ?",
-      image: "src/assets/images/flag/np.svg",
+      image: "images/flag/np.svg",
       option1: "Népal",
       option2: "Bhoutan",
       option3: "Bangladesh",
@@ -3369,7 +3369,7 @@ export const data = {
     },
     {
       question: "Quel est le drapeau de ce pays ?",
-      image: "src/assets/images/flag/nz.svg",
+      image: "images/flag/nz.svg",
       option1: "Australie",
       option2: "Nouvelle-Zélande",
       option3: "Fiji",
@@ -3379,7 +3379,7 @@ export const data = {
     },
     {
       question: "Quel est le drapeau de ce pays ?",
-      image: "src/assets/images/flag/om.svg",
+      image: "images/flag/om.svg",
       option1: "Émirats Arabes Unis",
       option2: "Qatar",
       option3: "Oman",
@@ -3389,7 +3389,7 @@ export const data = {
     },
     {
       question: "Quel est le drapeau de ce pays ?",
-      image: "src/assets/images/flag/pa.svg",
+      image: "images/flag/pa.svg",
       option1: "Costa Rica",
       option2: "Honduras",
       option3: "Nicaragua",
@@ -3399,7 +3399,7 @@ export const data = {
     },
     {
       question: "Quel est le drapeau de ce pays ?",
-      image: "src/assets/images/flag/pe.svg",
+      image: "images/flag/pe.svg",
       option1: "Pérou",
       option2: "Canada",
       option3: "Autriche",
@@ -3409,7 +3409,7 @@ export const data = {
     },
     {
       question: "Quel est le drapeau de ce pays ?",
-      image: "src/assets/images/flag/ph.svg",
+      image: "images/flag/ph.svg",
       option1: "Malaisie",
       option2: "Philippines",
       option3: "République tchèque",
@@ -3419,7 +3419,7 @@ export const data = {
     },
     {
       question: "Quel est le drapeau de ce pays ?",
-      image: "src/assets/images/flag/pk.svg",
+      image: "images/flag/pk.svg",
       option1: "Bangladesh",
       option2: "Turquie",
       option3: "Pakistan",
@@ -3429,7 +3429,7 @@ export const data = {
     },
     {
       question: "Quel est le drapeau de ce pays ?",
-      image: "src/assets/images/flag/pl.svg",
+      image: "images/flag/pl.svg",
       option1: "Monaco",
       option2: "Indonésie",
       option3: "Autriche",
@@ -3439,7 +3439,7 @@ export const data = {
     },
     {
       question: "Quel est le drapeau de ce pays ?",
-      image: "src/assets/images/flag/pt.svg",
+      image: "images/flag/pt.svg",
       option1: "Portugal",
       option2: "Espagne",
       option3: "Andorre",
@@ -3449,7 +3449,7 @@ export const data = {
     },
     {
       question: "Quel est le drapeau de ce pays ?",
-      image: "src/assets/images/flag/py.svg",
+      image: "images/flag/py.svg",
       option1: "Uruguay",
       option2: "Paraguay",
       option3: "Argentine",
@@ -3459,7 +3459,7 @@ export const data = {
     },
     {
       question: "Quel est le drapeau de ce pays ?",
-      image: "src/assets/images/flag/qa.svg",
+      image: "images/flag/qa.svg",
       option1: "Bahreïn",
       option2: "Koweït",
       option3: "Qatar",
@@ -3469,7 +3469,7 @@ export const data = {
     },
     {
       question: "Quel est le drapeau de ce pays ?",
-      image: "src/assets/images/flag/ro.svg",
+      image: "images/flag/ro.svg",
       option1: "Moldova",
       option2: "Tchad",
       option3: "Andorre",
@@ -3479,7 +3479,7 @@ export const data = {
     },
     {
       question: "Quel est le drapeau de ce pays ?",
-      image: "src/assets/images/flag/rs.svg",
+      image: "images/flag/rs.svg",
       option1: "Serbie",
       option2: "Croatie",
       option3: "Slovénie",
@@ -3489,7 +3489,7 @@ export const data = {
     },
     {
       question: "Quel est le drapeau de ce pays ?",
-      image: "src/assets/images/flag/ru.svg",
+      image: "images/flag/ru.svg",
       option1: "Slovaquie",
       option2: "Russie",
       option3: "Pays-Bas",
@@ -3499,7 +3499,7 @@ export const data = {
     },
     {
       question: "Quel est le drapeau de ce pays ?",
-      image: "src/assets/images/flag/rw.svg",
+      image: "images/flag/rw.svg",
       option1: "Burundi",
       option2: "Tanzanie",
       option3: "Rwanda",
@@ -3509,7 +3509,7 @@ export const data = {
     },
     {
       question: "Quel est le drapeau de ce pays ?",
-      image: "src/assets/images/flag/sa.svg",
+      image: "images/flag/sa.svg",
       option1: "Émirats Arabes Unis",
       option2: "Koweït",
       option3: "Qatar",
@@ -3519,7 +3519,7 @@ export const data = {
     },
     {
       question: "Quel est le drapeau de ce pays ?",
-      image: "src/assets/images/flag/se.svg",
+      image: "images/flag/se.svg",
       option1: "Suède",
       option2: "Norvège",
       option3: "Danemark",
@@ -3529,7 +3529,7 @@ export const data = {
     },
     {
       question: "Quel est le drapeau de ce pays ?",
-      image: "src/assets/images/flag/sg.svg",
+      image: "images/flag/sg.svg",
       option1: "Indonésie",
       option2: "Singapour",
       option3: "Monaco",
@@ -3539,7 +3539,7 @@ export const data = {
     },
     {
       question: "Quel est le drapeau de ce pays ?",
-      image: "src/assets/images/flag/si.svg",
+      image: "images/flag/si.svg",
       option1: "Slovaquie",
       option2: "Croatie",
       option3: "Slovénie",
@@ -3549,7 +3549,7 @@ export const data = {
     },
     {
       question: "Quel est le drapeau de ce pays ?",
-      image: "src/assets/images/flag/sk.svg",
+      image: "images/flag/sk.svg",
       option1: "République tchèque",
       option2: "Hongrie",
       option3: "Pologne",
@@ -3559,7 +3559,7 @@ export const data = {
     },
     {
       question: "Quel est le drapeau de ce pays ?",
-      image: "src/assets/images/flag/th.svg",
+      image: "images/flag/th.svg",
       option1: "Thaïlande",
       option2: "Cambodge",
       option3: "Laos",
@@ -3569,7 +3569,7 @@ export const data = {
     },
     {
       question: "Quel est le drapeau de ce pays ?",
-      image: "src/assets/images/flag/tn.svg",
+      image: "images/flag/tn.svg",
       option1: "Maroc",
       option2: "Tunisie",
       option3: "Algérie",
@@ -3579,7 +3579,7 @@ export const data = {
     },
     {
       question: "Quel est le drapeau de ce pays ?",
-      image: "src/assets/images/flag/tr.svg",
+      image: "images/flag/tr.svg",
       option1: "Pakistan",
       option2: "Algérie",
       option3: "Turquie",
@@ -3589,7 +3589,7 @@ export const data = {
     },
     {
       question: "Quel est le drapeau de ce pays ?",
-      image: "src/assets/images/flag/tw.svg",
+      image: "images/flag/tw.svg",
       option1: "Corée du Sud",
       option2: "Malaisie",
       option3: "Philippines",
@@ -3599,7 +3599,7 @@ export const data = {
     },
     {
       question: "Quel est le drapeau de ce pays ?",
-      image: "src/assets/images/flag/ua.svg",
+      image: "images/flag/ua.svg",
       option1: "Ukraine",
       option2: "Suède",
       option3: "Kazakhstan",
@@ -3609,7 +3609,7 @@ export const data = {
     },
     {
       question: "Quel est le drapeau de ce pays ?",
-      image: "src/assets/images/flag/ug.svg",
+      image: "images/flag/ug.svg",
       option1: "Kenya",
       option2: "Ouganda",
       option3: "Tanzanie",
@@ -3619,7 +3619,7 @@ export const data = {
     },
     {
       question: "Quel est le drapeau de ce pays ?",
-      image: "src/assets/images/flag/us.svg",
+      image: "images/flag/us.svg",
       option1: "Liberia",
       option2: "Malaisie",
       option3: "États-Unis",
@@ -3629,7 +3629,7 @@ export const data = {
     },
     {
       question: "Quel est le drapeau de ce pays ?",
-      image: "src/assets/images/flag/uy.svg",
+      image: "images/flag/uy.svg",
       option1: "Argentine",
       option2: "Grèce",
       option3: "Israël",
@@ -3639,7 +3639,7 @@ export const data = {
     },
     {
       question: "Quel est le drapeau de ce pays ?",
-      image: "src/assets/images/flag/uz.svg",
+      image: "images/flag/uz.svg",
       option1: "Ouzbékistan",
       option2: "Kazakhstan",
       option3: "Turkménistan",
@@ -3649,7 +3649,7 @@ export const data = {
     },
     {
       question: "Quel est le drapeau de ce pays ?",
-      image: "src/assets/images/flag/va.svg",
+      image: "images/flag/va.svg",
       option1: "Malte",
       option2: "Vatican",
       option3: "San Marin",
@@ -3659,7 +3659,7 @@ export const data = {
     },
     {
       question: "Quel est le drapeau de ce pays ?",
-      image: "src/assets/images/flag/ve.svg",
+      image: "images/flag/ve.svg",
       option1: "Colombie",
       option2: "Équateur",
       option3: "Venezuela",
@@ -3669,7 +3669,7 @@ export const data = {
     },
     {
       question: "Quel est le drapeau de ce pays ?",
-      image: "src/assets/images/flag/vn.svg",
+      image: "images/flag/vn.svg",
       option1: "Chine",
       option2: "Corée du Nord",
       option3: "Laos",
@@ -3679,7 +3679,7 @@ export const data = {
     },
     {
       question: "Quel est le drapeau de ce pays ?",
-      image: "src/assets/images/flag/ye.svg",
+      image: "images/flag/ye.svg",
       option1: "Yémen",
       option2: "Égypte",
       option3: "Syrie",
@@ -3689,7 +3689,7 @@ export const data = {
     },
     {
       question: "Quel est le drapeau de ce pays ?",
-      image: "src/assets/images/flag/za.svg",
+      image: "images/flag/za.svg",
       option1: "Namibie",
       option2: "Afrique du Sud",
       option3: "Botswana",
@@ -3699,7 +3699,7 @@ export const data = {
     },
     {
       question: "Quel est le drapeau de ce pays ?",
-      image: "src/assets/images/flag/zm.svg",
+      image: "images/flag/zm.svg",
       option1: "Zimbabwe",
       option2: "Mozambique",
       option3: "Zambie",
@@ -3709,7 +3709,7 @@ export const data = {
     },
     {
       question: "Quel est le drapeau de ce pays ?",
-      image: "src/assets/images/flag/zw.svg",
+      image: "images/flag/zw.svg",
       option1: "Zambie",
       option2: "Mozambique",
       option3: "Angola",
@@ -3719,7 +3719,7 @@ export const data = {
     },
     {
       question: "Quel est le drapeau de ce territoire ?",
-      image: "src/assets/images/flag/hk.svg",
+      image: "images/flag/hk.svg",
       option1: "Singapour",
       option2: "Hong Kong",
       option3: "Macau",
@@ -3729,7 +3729,7 @@ export const data = {
     },
     {
       question: "Quel est le drapeau de ce pays ?",
-      image: "src/assets/images/flag/kz.svg",
+      image: "images/flag/kz.svg",
       option1: "Ouzbékistan",
       option2: "Turkménistan",
       option3: "Kazakhstan",
@@ -3739,7 +3739,7 @@ export const data = {
     },
     {
       question: "Quel est le drapeau de ce pays ?",
-      image: "src/assets/images/flag/ao.svg",
+      image: "images/flag/ao.svg",
       option1: "Mozambique",
       option2: "Angola",
       option3: "Namibie",
@@ -3749,7 +3749,7 @@ export const data = {
     },
     {
       question: "Quel est le drapeau de ce pays ?",
-      image: "src/assets/images/flag/tz.svg",
+      image: "images/flag/tz.svg",
       option1: "Kenya",
       option2: "Ouganda",
       option3: "Rwanda",
@@ -3759,7 +3759,7 @@ export const data = {
     },
     {
       question: "Quel est le drapeau de ce pays ?",
-      image: "src/assets/images/flag/bo.svg",
+      image: "images/flag/bo.svg",
       option1: "Bolivie",
       option2: "Équateur",
       option3: "Paraguay",
@@ -3769,7 +3769,7 @@ export const data = {
     },
     {
       question: "Quel est le drapeau de ce pays ?",
-      image: "src/assets/images/flag/gy.svg",
+      image: "images/flag/gy.svg",
       option1: "Suriname",
       option2: "Guyane française",
       option3: "Guyana",
@@ -3779,7 +3779,7 @@ export const data = {
     },
     {
       question: "Quel est le drapeau de ce pays ?",
-      image: "src/assets/images/flag/bw.svg",
+      image: "images/flag/bw.svg",
       option1: "Namibie",
       option2: "Botswana",
       option3: "Lesotho",
@@ -3789,7 +3789,7 @@ export const data = {
     },
     {
       question: "Quel est le drapeau de ce pays ?",
-      image: "src/assets/images/flag/ls.svg",
+      image: "images/flag/ls.svg",
       option1: "Lesotho",
       option2: "Swaziland",
       option3: "Botswana",
@@ -3799,7 +3799,7 @@ export const data = {
     },
     {
       question: "Quel est le drapeau de ce pays ?",
-      image: "src/assets/images/flag/mw.svg",
+      image: "images/flag/mw.svg",
       option1: "Zambie",
       option2: "Zimbabwe",
       option3: "Malawi",
@@ -3809,7 +3809,7 @@ export const data = {
     },
     {
       question: "Quel est le drapeau de ce pays ?",
-      image: "src/assets/images/flag/bz.svg",
+      image: "images/flag/bz.svg",
       option1: "Guatemala",
       option2: "Belize",
       option3: "Salvador",
@@ -3819,7 +3819,7 @@ export const data = {
     },
     {
       question: "Quel est le drapeau de ce pays ?",
-      image: "src/assets/images/flag/gw.svg",
+      image: "images/flag/gw.svg",
       option1: "Guinée",
       option2: "Guinée-Bissau",
       option3: "Sierra Leone",
@@ -3829,7 +3829,7 @@ export const data = {
     },
     {
       question: "Quel est le drapeau de ce pays ?",
-      image: "src/assets/images/flag/lr.svg",
+      image: "images/flag/lr.svg",
       option1: "Libéria",
       option2: "Sierra Leone",
       option3: "Guinée",
@@ -3839,7 +3839,7 @@ export const data = {
     },
     {
       question: "Quel est le drapeau de ce pays ?",
-      image: "src/assets/images/flag/sl.svg",
+      image: "images/flag/sl.svg",
       option1: "Libéria",
       option2: "Guinée",
       option3: "Sierra Leone",
@@ -3849,7 +3849,7 @@ export const data = {
     },
     {
       question: "Quel est le drapeau de ce pays ?",
-      image: "src/assets/images/flag/gm.svg",
+      image: "images/flag/gm.svg",
       option1: "Sénégal",
       option2: "Gambie",
       option3: "Guinée-Bissau",
@@ -3859,7 +3859,7 @@ export const data = {
     },
     {
       question: "Quel est le drapeau de ce pays ?",
-      image: "src/assets/images/flag/cv.svg",
+      image: "images/flag/cv.svg",
       option1: "Cap-Vert",
       option2: "São Tomé-et-Príncipe",
       option3: "Guinée-Bissau",
@@ -3869,7 +3869,7 @@ export const data = {
     },
     {
       question: "Quel est le drapeau de ce pays ?",
-      image: "src/assets/images/flag/st.svg",
+      image: "images/flag/st.svg",
       option1: "Cap-Vert",
       option2: "São Tomé-et-Príncipe",
       option3: "Comores",
@@ -3879,7 +3879,7 @@ export const data = {
     },
     {
       question: "Quel est le drapeau de ce pays ?",
-      image: "src/assets/images/flag/sc.svg",
+      image: "images/flag/sc.svg",
       option1: "Maurice",
       option2: "Maldives",
       option3: "Seychelles",
@@ -3889,7 +3889,7 @@ export const data = {
     },
     {
       question: "Quel est le drapeau de ce pays ?",
-      image: "src/assets/images/flag/mu.svg",
+      image: "images/flag/mu.svg",
       option1: "Maurice",
       option2: "Seychelles",
       option3: "Maldives",
@@ -3899,7 +3899,7 @@ export const data = {
     },
     {
       question: "Quel est le drapeau de ce pays ?",
-      image: "src/assets/images/flag/km.svg",
+      image: "images/flag/km.svg",
       option1: "Maldives",
       option2: "Maurice",
       option3: "Comores",
@@ -3909,7 +3909,7 @@ export const data = {
     },
     {
       question: "Quel est le drapeau de ce pays ?",
-      image: "src/assets/images/flag/dj.svg",
+      image: "images/flag/dj.svg",
       option1: "Érythrée",
       option2: "Djibouti",
       option3: "Somalie",
@@ -3919,7 +3919,7 @@ export const data = {
     },
     {
       question: "Quel est le drapeau de ce pays ?",
-      image: "src/assets/images/flag/er.svg",
+      image: "images/flag/er.svg",
       option1: "Érythrée",
       option2: "Éthiopie",
       option3: "Djibouti",
@@ -3929,7 +3929,7 @@ export const data = {
     },
     {
       question: "Quel est le drapeau de ce pays ?",
-      image: "src/assets/images/flag/so.svg",
+      image: "images/flag/so.svg",
       option1: "Éthiopie",
       option2: "Djibouti",
       option3: "Érythrée",
@@ -3939,7 +3939,7 @@ export const data = {
     },
     {
       question: "Quel est le drapeau de ce pays ?",
-      image: "src/assets/images/flag/ss.svg",
+      image: "images/flag/ss.svg",
       option1: "Soudan",
       option2: "Soudan du Sud",
       option3: "Tchad",
@@ -3949,7 +3949,7 @@ export const data = {
     },
     {
       question: "Quel est le drapeau de ce pays ?",
-      image: "src/assets/images/flag/sd.svg",
+      image: "images/flag/sd.svg",
       option1: "Soudan",
       option2: "Soudan du Sud",
       option3: "Tchad",
@@ -3959,7 +3959,7 @@ export const data = {
     },
     {
       question: "Quel est le drapeau de ce pays ?",
-      image: "src/assets/images/flag/td.svg",
+      image: "images/flag/td.svg",
       option1: "Niger",
       option2: "Mali",
       option3: "Tchad",
@@ -3969,7 +3969,7 @@ export const data = {
     },
     {
       question: "Quel est le drapeau de ce pays ?",
-      image: "src/assets/images/flag/cf.svg",
+      image: "images/flag/cf.svg",
       option1: "République centrafricaine",
       option2: "Tchad",
       option3: "République démocratique du Congo",
@@ -3979,7 +3979,7 @@ export const data = {
     },
     {
       question: "Quel est le drapeau de ce pays ?",
-      image: "src/assets/images/flag/cd.svg",
+      image: "images/flag/cd.svg",
       option1: "République du Congo",
       option2: "République centrafricaine",
       option3: "République démocratique du Congo",
@@ -3989,7 +3989,7 @@ export const data = {
     },
     {
       question: "Quel est le drapeau de ce pays ?",
-      image: "src/assets/images/flag/cg.svg",
+      image: "images/flag/cg.svg",
       option1: "République du Congo",
       option2: "République démocratique du Congo",
       option3: "Gabon",
@@ -3999,7 +3999,7 @@ export const data = {
     },
     {
       question: "Quel est le drapeau de ce pays ?",
-      image: "src/assets/images/flag/ga.svg",
+      image: "images/flag/ga.svg",
       option1: "République du Congo",
       option2: "Gabon",
       option3: "Guinée équatoriale",
@@ -4009,7 +4009,7 @@ export const data = {
     },
     {
       question: "Quel est le drapeau de ce pays ?",
-      image: "src/assets/images/flag/gq.svg",
+      image: "images/flag/gq.svg",
       option1: "Gabon",
       option2: "Guinée équatoriale",
       option3: "São Tomé-et-Príncipe",
@@ -4019,7 +4019,7 @@ export const data = {
     },
     {
       question: "Quel est le drapeau de ce pays ?",
-      image: "src/assets/images/flag/cm.svg",
+      image: "images/flag/cm.svg",
       option1: "Cameroun",
       option2: "République centrafricaine",
       option3: "Tchad",
@@ -4030,7 +4030,7 @@ export const data = {
     // Îles et territoires du Pacifique
     {
       question: "Quel est le drapeau de ce pays ?",
-      image: "src/assets/images/flag/pg.svg",
+      image: "images/flag/pg.svg",
       option1: "Papouasie-Nouvelle-Guinée",
       option2: "Îles Salomon",
       option3: "Vanuatu",
@@ -4040,7 +4040,7 @@ export const data = {
     },
     {
       question: "Quel est le drapeau de ce pays ?",
-      image: "src/assets/images/flag/sb.svg",
+      image: "images/flag/sb.svg",
       option1: "Vanuatu",
       option2: "Îles Salomon",
       option3: "Papouasie-Nouvelle-Guinée",
@@ -4050,7 +4050,7 @@ export const data = {
     },
     {
       question: "Quel est le drapeau de ce pays ?",
-      image: "src/assets/images/flag/vu.svg",
+      image: "images/flag/vu.svg",
       option1: "Vanuatu",
       option2: "Îles Salomon",
       option3: "Samoa",
@@ -4060,7 +4060,7 @@ export const data = {
     },
     {
       question: "Quel est le drapeau de ce pays ?",
-      image: "src/assets/images/flag/ws.svg",
+      image: "images/flag/ws.svg",
       option1: "Samoa",
       option2: "Tonga",
       option3: "Fidji",
@@ -4070,7 +4070,7 @@ export const data = {
     },
     {
       question: "Quel est le drapeau de ce pays ?",
-      image: "src/assets/images/flag/to.svg",
+      image: "images/flag/to.svg",
       option1: "Samoa",
       option2: "Tonga",
       option3: "Fidji",
@@ -4080,7 +4080,7 @@ export const data = {
     },
     {
       question: "Quel est le drapeau de ce pays ?",
-      image: "src/assets/images/flag/ki.svg",
+      image: "images/flag/ki.svg",
       option1: "Tuvalu",
       option2: "Nauru",
       option3: "Kiribati",
@@ -4090,7 +4090,7 @@ export const data = {
     },
     {
       question: "Quel est le drapeau de ce pays ?",
-      image: "src/assets/images/flag/tv.svg",
+      image: "images/flag/tv.svg",
       option1: "Tuvalu",
       option2: "Kiribati",
       option3: "Nauru",
@@ -4100,7 +4100,7 @@ export const data = {
     },
     {
       question: "Quel est le drapeau de ce pays ?",
-      image: "src/assets/images/flag/nr.svg",
+      image: "images/flag/nr.svg",
       option1: "Nauru",
       option2: "Tuvalu",
       option3: "Kiribati",
@@ -4110,7 +4110,7 @@ export const data = {
     },
     {
       question: "Quel est le drapeau de ce pays ?",
-      image: "src/assets/images/flag/pw.svg",
+      image: "images/flag/pw.svg",
       option1: "Micronésie",
       option2: "Îles Marshall",
       option3: "Palaos",
@@ -4120,7 +4120,7 @@ export const data = {
     },
     {
       question: "Quel est le drapeau de ce pays ?",
-      image: "src/assets/images/flag/fm.svg",
+      image: "images/flag/fm.svg",
       option1: "Micronésie",
       option2: "Palaos",
       option3: "Îles Marshall",
@@ -4130,7 +4130,7 @@ export const data = {
     },
     {
       question: "Quel est le drapeau de ce pays ?",
-      image: "src/assets/images/flag/mh.svg",
+      image: "images/flag/mh.svg",
       option1: "Îles Marshall",
       option2: "Micronésie",
       option3: "Palaos",
@@ -4141,7 +4141,7 @@ export const data = {
     // Caraïbes
     {
       question: "Quel est le drapeau de ce pays ?",
-      image: "src/assets/images/flag/ht.svg",
+      image: "images/flag/ht.svg",
       option1: "République dominicaine",
       option2: "Haïti",
       option3: "Jamaïque",
@@ -4151,7 +4151,7 @@ export const data = {
     },
     {
       question: "Quel est le drapeau de ce pays ?",
-      image: "src/assets/images/flag/do.svg",
+      image: "images/flag/do.svg",
       option1: "République dominicaine",
       option2: "Haïti",
       option3: "Porto Rico",
@@ -4161,7 +4161,7 @@ export const data = {
     },
     {
       question: "Quel est le drapeau de ce pays ?",
-      image: "src/assets/images/flag/bs.svg",
+      image: "images/flag/bs.svg",
       option1: "Bahamas",
       option2: "Barbade",
       option3: "Belize",
@@ -4171,7 +4171,7 @@ export const data = {
     },
     {
       question: "Quel est le drapeau de ce pays ?",
-      image: "src/assets/images/flag/gd.svg",
+      image: "images/flag/gd.svg",
       option1: "Grenade",
       option2: "Saint-Vincent-et-les-Grenadines",
       option3: "Sainte-Lucie",
@@ -4181,7 +4181,7 @@ export const data = {
     },
     {
       question: "Quel est le drapeau de ce pays ?",
-      image: "src/assets/images/flag/vc.svg",
+      image: "images/flag/vc.svg",
       option1: "Saint-Vincent-et-les-Grenadines",
       option2: "Grenade",
       option3: "Sainte-Lucie",
@@ -4191,7 +4191,7 @@ export const data = {
     },
     {
       question: "Quel est le drapeau de ce pays ?",
-      image: "src/assets/images/flag/lc.svg",
+      image: "images/flag/lc.svg",
       option1: "Sainte-Lucie",
       option2: "Dominique",
       option3: "Saint-Vincent-et-les-Grenadines",
@@ -4201,7 +4201,7 @@ export const data = {
     },
     {
       question: "Quel est le drapeau de ce pays ?",
-      image: "src/assets/images/flag/dm.svg",
+      image: "images/flag/dm.svg",
       option1: "Dominique",
       option2: "Sainte-Lucie",
       option3: "Saint-Vincent-et-les-Grenadines",
@@ -4211,7 +4211,7 @@ export const data = {
     },
     {
       question: "Quel est le drapeau de ce pays ?",
-      image: "src/assets/images/flag/kn.svg",
+      image: "images/flag/kn.svg",
       option1: "Saint-Christophe-et-Niévès",
       option2: "Antigua-et-Barbuda",
       option3: "Dominique",
@@ -4222,7 +4222,7 @@ export const data = {
     // Asie centrale et autres
     {
       question: "Quel est le drapeau de ce pays ?",
-      image: "src/assets/images/flag/tj.svg",
+      image: "images/flag/tj.svg",
       option1: "Tadjikistan",
       option2: "Ouzbékistan",
       option3: "Turkménistan",
@@ -4232,7 +4232,7 @@ export const data = {
     },
     {
       question: "Quel est le drapeau de ce pays ?",
-      image: "src/assets/images/flag/tm.svg",
+      image: "images/flag/tm.svg",
       option1: "Turkménistan",
       option2: "Ouzbékistan",
       option3: "Tadjikistan",
@@ -4242,7 +4242,7 @@ export const data = {
     },
     {
       question: "Quel est le drapeau de ce pays ?",
-      image: "src/assets/images/flag/bt.svg",
+      image: "images/flag/bt.svg",
       option1: "Bhoutan",
       option2: "Népal",
       option3: "Birmanie",
@@ -4252,7 +4252,7 @@ export const data = {
     },
     {
       question: "Quel est le drapeau de ce pays ?",
-      image: "src/assets/images/flag/mv.svg",
+      image: "images/flag/mv.svg",
       option1: "Maldives",
       option2: "Sri Lanka",
       option3: "Maurice",
@@ -4262,7 +4262,7 @@ export const data = {
     },
     {
       question: "Quel est le drapeau de ce pays ?",
-      image: "src/assets/images/flag/bn.svg",
+      image: "images/flag/bn.svg",
       option1: "Brunei",
       option2: "Malaisie",
       option3: "Singapour",
@@ -4272,7 +4272,7 @@ export const data = {
     },
     {
       question: "Quel est le drapeau de ce pays ?",
-      image: "src/assets/images/flag/tl.svg",
+      image: "images/flag/tl.svg",
       option1: "Timor oriental",
       option2: "Papouasie-Nouvelle-Guinée",
       option3: "Indonésie",
@@ -4283,7 +4283,7 @@ export const data = {
     // Europe de l'Est et Balkans manquants
     {
       question: "Quel est le drapeau de ce territoire ?",
-      image: "src/assets/images/flag/xk.svg",
+      image: "images/flag/xk.svg",
       option1: "Kosovo",
       option2: "Macédoine du Nord",
       option3: "Monténégro",
@@ -4294,7 +4294,7 @@ export const data = {
     // Territoires français d'outre-mer
     {
       question: "Quel est le drapeau de ce territoire ?",
-      image: "src/assets/images/flag/gf.svg",
+      image: "images/flag/gf.svg",
       option1: "Guyane française",
       option2: "Martinique",
       option3: "Guadeloupe",
@@ -4304,7 +4304,7 @@ export const data = {
     },
     {
       question: "Quel est le drapeau de ce territoire ?",
-      image: "src/assets/images/flag/nc.svg",
+      image: "images/flag/nc.svg",
       option1: "Nouvelle-Calédonie",
       option2: "Polynésie française",
       option3: "Vanuatu",
@@ -4314,7 +4314,7 @@ export const data = {
     },
     {
       question: "Quel est le drapeau de ce territoire ?",
-      image: "src/assets/images/flag/pf.svg",
+      image: "images/flag/pf.svg",
       option1: "Polynésie française",
       option2: "Nouvelle-Calédonie",
       option3: "Samoa",
@@ -4325,7 +4325,7 @@ export const data = {
     // Autres territoires et pays importants
     {
       question: "Quel est le drapeau de ce territoire ?",
-      image: "src/assets/images/flag/pr.svg",
+      image: "images/flag/pr.svg",
       option1: "Porto Rico",
       option2: "République dominicaine",
       option3: "Cuba",
@@ -4335,7 +4335,7 @@ export const data = {
     },
     {
       question: "Quel est le drapeau de ce territoire ?",
-      image: "src/assets/images/flag/mo.svg",
+      image: "images/flag/mo.svg",
       option1: "Macau",
       option2: "Hong Kong",
       option3: "Taïwan",
@@ -4345,7 +4345,7 @@ export const data = {
     },
     {
       question: "Quel est le drapeau de ce territoire ?",
-      image: "src/assets/images/flag/gi.svg",
+      image: "images/flag/gi.svg",
       option1: "Gibraltar",
       option2: "Malte",
       option3: "Chypre",
@@ -4355,7 +4355,7 @@ export const data = {
     },
     {
       question: "Quel est le drapeau de ce pays ?",
-      image: "src/assets/images/flag/sm.svg",
+      image: "images/flag/sm.svg",
       option1: "Saint-Marin",
       option2: "Vatican",
       option3: "Monaco",
@@ -4365,7 +4365,7 @@ export const data = {
     },
     {
       question: "Quel est le drapeau de ce pays ?",
-      image: "src/assets/images/flag/tg.svg",
+      image: "images/flag/tg.svg",
       option1: "Togo",
       option2: "Bénin",
       option3: "Ghana",
@@ -4375,7 +4375,7 @@ export const data = {
     },
     {
       question: "Quel est le drapeau de ce pays ?",
-      image: "src/assets/images/flag/bj.svg",
+      image: "images/flag/bj.svg",
       option1: "Bénin",
       option2: "Togo",
       option3: "Ghana",
@@ -4385,7 +4385,7 @@ export const data = {
     },
     {
       question: "Quel est le drapeau de ce pays ?",
-      image: "src/assets/images/flag/gn.svg",
+      image: "images/flag/gn.svg",
       option1: "Guinée",
       option2: "Mali",
       option3: "Burkina Faso",
@@ -4395,7 +4395,7 @@ export const data = {
     },
     {
       question: "Quel est le drapeau de ce pays ?",
-      image: "src/assets/images/flag/ci.svg",
+      image: "images/flag/ci.svg",
       option1: "Côte d'Ivoire",
       option2: "Irlande",
       option3: "Inde",
@@ -4405,7 +4405,7 @@ export const data = {
     },
     {
       question: "Quel est le drapeau de ce pays ?",
-      image: "src/assets/images/flag/sn.svg",
+      image: "images/flag/sn.svg",
       option1: "Sénégal",
       option2: "Mali",
       option3: "Guinée",
@@ -4415,7 +4415,7 @@ export const data = {
     },
     {
       question: "Quel est le drapeau de ce pays ?",
-      image: "src/assets/images/flag/mr.svg",
+      image: "images/flag/mr.svg",
       option1: "Mauritanie",
       option2: "Mali",
       option3: "Niger",
@@ -4425,7 +4425,7 @@ export const data = {
     },
     {
       question: "Quel est le drapeau de ce pays ?",
-      image: "src/assets/images/flag/bi.svg",
+      image: "images/flag/bi.svg",
       option1: "Burundi",
       option2: "Rwanda",
       option3: "Ouganda",
@@ -4435,7 +4435,7 @@ export const data = {
     },
     {
       question: "Quel est le drapeau de ce pays ?",
-      image: "src/assets/images/flag/sz.svg",
+      image: "images/flag/sz.svg",
       option1: "Eswatini (Swaziland)",
       option2: "Lesotho",
       option3: "Botswana",
@@ -4445,7 +4445,7 @@ export const data = {
     },
     {
       question: "Quel est le drapeau de ce pays ?",
-      image: "src/assets/images/flag/sr.svg",
+      image: "images/flag/sr.svg",
       option1: "Suriname",
       option2: "Guyana",
       option3: "Guyane française",
@@ -4455,7 +4455,7 @@ export const data = {
     },
     {
       question: "Quel est le drapeau de ce pays ?",
-      image: "src/assets/images/flag/sv.svg",
+      image: "images/flag/sv.svg",
       option1: "Salvador",
       option2: "Guatemala",
       option3: "Honduras",
@@ -4466,7 +4466,7 @@ export const data = {
     // Territoires et îles britanniques
     {
       question: "Quel est le drapeau de ce territoire ?",
-      image: "src/assets/images/flag/im.svg",
+      image: "images/flag/im.svg",
       option1: "Île de Man",
       option2: "Jersey",
       option3: "Guernesey",
@@ -4476,7 +4476,7 @@ export const data = {
     },
     {
       question: "Quel est le drapeau de ce territoire ?",
-      image: "src/assets/images/flag/je.svg",
+      image: "images/flag/je.svg",
       option1: "Jersey",
       option2: "Guernesey",
       option3: "Île de Man",
@@ -4486,7 +4486,7 @@ export const data = {
     },
     {
       question: "Quel est le drapeau de ce territoire ?",
-      image: "src/assets/images/flag/gg.svg",
+      image: "images/flag/gg.svg",
       option1: "Guernesey",
       option2: "Jersey",
       option3: "Île de Man",
@@ -4496,7 +4496,7 @@ export const data = {
     },
     {
       question: "Quel est le drapeau de ce territoire ?",
-      image: "src/assets/images/flag/fo.svg",
+      image: "images/flag/fo.svg",
       option1: "Îles Féroé",
       option2: "Islande",
       option3: "Groenland",
@@ -4506,7 +4506,7 @@ export const data = {
     },
     {
       question: "Quel est le drapeau de ce territoire ?",
-      image: "src/assets/images/flag/gl.svg",
+      image: "images/flag/gl.svg",
       option1: "Groenland",
       option2: "Islande",
       option3: "Îles Féroé",
@@ -4517,7 +4517,7 @@ export const data = {
     // Territoires néerlandais
     {
       question: "Quel est le drapeau de ce territoire ?",
-      image: "src/assets/images/flag/aw.svg",
+      image: "images/flag/aw.svg",
       option1: "Aruba",
       option2: "Curaçao",
       option3: "Saint-Martin",
@@ -4527,7 +4527,7 @@ export const data = {
     },
     {
       question: "Quel est le drapeau de ce territoire ?",
-      image: "src/assets/images/flag/cw.svg",
+      image: "images/flag/cw.svg",
       option1: "Curaçao",
       option2: "Aruba",
       option3: "Bonaire",
@@ -4537,7 +4537,7 @@ export const data = {
     },
     {
       question: "Quel est le drapeau de ce territoire ?",
-      image: "src/assets/images/flag/sx.svg",
+      image: "images/flag/sx.svg",
       option1: "Saint-Martin (partie néerlandaise)",
       option2: "Saint-Martin (partie française)",
       option3: "Curaçao",

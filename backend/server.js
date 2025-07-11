@@ -12,9 +12,14 @@ const app = express();
 
 const PORT = process.env.PORT || 5000;
 
+const allowedOrigins = [
+  "http://localhost:5173",
+  "https://quiz-app-theta-gray.vercel.app",
+];
+
 app.use(
   cors({
-    origin: "https://quiz-app-theta-gray.vercel.app",
+    origin: allowedOrigins,
     credentials: true,
     methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
     allowedHeaders: ["Content-Type", "Authorization"],
