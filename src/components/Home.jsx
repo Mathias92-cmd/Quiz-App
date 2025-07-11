@@ -117,8 +117,8 @@ const Home = ({ onStartQuiz }) => {
             <div className="bg-white rounded-3xl shadow-2xl overflow-hidden border border-gray-100">
               <div className="bg-gradient-to-r from-blue-600 via-purple-600 to-pink-600 p-6">
                 <div className="grid grid-cols-6 md:grid-cols-6 gap-4 text-white font-bold text-sm uppercase tracking-wider">
-                  <div className="text-center">Position</div>
-                  <div>Joueur</div>
+                  <div className="text-center hidden md:block">Position</div>
+                  <div className="text-center hidden md:block">Joueur</div>
                   <div className="text-center hidden md:block">Score Total</div>
                   <div className="text-center hidden md:block">Quiz Joués</div>
                   <div className="text-center hidden md:block">Niveau</div>
