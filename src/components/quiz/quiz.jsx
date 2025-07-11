@@ -121,7 +121,7 @@ const Quiz = ({
 
     try {
       const response = await fetch(
-        "http://localhost:5000/api/quiz/submit-result",
+        "https://quiz-app-6rr9.onrender.com/api/quiz/submit-result",
         {
           method: "POST",
           headers: {

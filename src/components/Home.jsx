@@ -14,7 +14,9 @@ const Home = ({ onStartQuiz }) => {
   const fetchRanking = async () => {
     try {
       setIsLoading(true);
-      const response = await fetch("http://localhost:5000/api/quiz/ranking");
+      const response = await fetch(
+        "https://quiz-app-6rr9.onrender.com/api/quiz/ranking"
+      );
       console.log("Response:", response);
       if (!response.ok) {
         throw new Error("Failed to fetch ranking");

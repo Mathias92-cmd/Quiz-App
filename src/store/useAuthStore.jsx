@@ -1,7 +1,7 @@
 import { create } from "zustand";
 import axios from "axios";
 
-const API_URL = "http://localhost:5000/api";
+const API_URL = "https://quiz-app-6rr9.onrender.com/api";
 axios.defaults.withCredentials = true;
 export const useAuthStore = create((set) => ({
   // initial states
